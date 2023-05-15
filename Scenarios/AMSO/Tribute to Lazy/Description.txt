@@ -1,0 +1,3 @@
+BEGIN_DESC
+This folder contains several scenarios with all steps of LazyD Monument visit and Ceremony.
+END_DESC

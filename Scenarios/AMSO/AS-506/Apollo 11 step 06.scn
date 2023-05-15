@@ -1,0 +1,65 @@
+BEGIN_DESC
+On the way to the Moon.
+
+
+Time to separate from the 3rd stage and dock with the LM.
+
+
+Separate Apollo vessel with "J" key, then return the vessel. To dock with the LM, Use "Docking" instrument set in "visual" mode with "shift-V".
+
+
+Quad S-band high gain antenna will automatically deploy 10 seconds after separation.
+
+
+Real flight plan: 16th July at 16:52 UT.
+
+Historical time: 16th July at 16:47:23 UT.
+END_DESC
+
+BEGIN_ENVIRONMENT
+  System AMSO\Sol
+  Date MJD 40418.6984404514
+END_ENVIRONMENT
+
+BEGIN_FOCUS
+  Ship AS-506
+END_FOCUS
+
+BEGIN_CAMERA
+  TARGET AS-506
+  MODE Extern
+  POS 1.81 -161.04 -31.51
+  TRACKMODE TargetRelative
+  FOV 60.00
+END_CAMERA
+
+BEGIN_HUD
+  TYPE Orbit
+  REF AUTO
+END_HUD
+
+BEGIN_VC
+END_VC
+
+
+BEGIN_SHIPS
+AS-506:AMSO\Apollo
+  STATUS Orbiting Earth
+  RPOS -723399.08 2605062.34 12637228.96
+  RVEL -5855.674 933.273 5015.371
+  AROT 12.37 -33.61 -62.24
+  PRPLEVEL 0:0.084
+  NAVFREQ 0 1 2 3
+  XPDR 0
+  STATE 7
+  ABORTSTATUS 0
+  MJDLOI 40421.723000
+  MJDLDG 40422.848000
+  MJDSPL 40426.703000
+  SPLLON -172.400
+  SPLLAT 10.600
+  MISSIONTIME 11625.120000
+  PWR 0.000
+  APPW 0
+END
+END_SHIPS

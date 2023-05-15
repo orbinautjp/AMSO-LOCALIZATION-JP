@@ -1,0 +1,159 @@
+BEGIN_DESC
+A few minutes before TLI (Trans-Lunar Injection).
+
+
+IMFD instrument is all set for the TLI burn. You just have to activate auto-burn IMFD function.
+
+
+Real flight plan: 16th July at 16:16 UT.
+END_DESC
+
+BEGIN_ENVIRONMENT
+  System AMSO\Sol
+  Date MJD 40418.6710594907
+END_ENVIRONMENT
+
+BEGIN_FOCUS
+  Ship AS-506
+END_FOCUS
+
+BEGIN_CAMERA
+  TARGET AS-506
+  MODE Cockpit
+  FOV 60.00
+END_CAMERA
+
+BEGIN_HUD
+  TYPE Surface
+END_HUD
+
+BEGIN_MFD Left
+  TYPE User
+  MODE Interplanetary
+  Scenario Old
+  MapMFD V5
+  Reference Auto
+  Target moon
+  Center moon
+  Data 0 1 2.976848876810614e-005 0 1 1 1 2 1 1 0 0
+  MassLimit 1e+020
+  CMode 2
+  Config 1 1 1 1 0 0
+  ExtMode 2
+  Periapis Moon
+  END 
+  CorMFD V4
+  Reference Earth
+  Target Moon
+  Source AS-506
+  ActiveProg 1 1
+  DataA 0 3 0 0 0 0
+  DataB 57.6650390625 1 40418.67796835482 0 0 3.042346214622959 0 40421.72265625 0
+  DVProg 0 0 0 1
+  AdvConf 0.1396263401595461 0.1221730476396029 7836915.769461509 2 0
+  Guidance 1
+  END 
+  EjectMFD V5
+  Reference Auto
+  Data 0 1 3 0 1 40418.57266631942 10
+  Guidance 0
+  END 
+  BaseAprMFD V2
+  Reference Auto
+  Target none
+  Source none
+  DataA 0 0 120000 0.0523599 0.0872665 1 1 40418.57266631942 40418.57266631942 0
+  DataB 0 3 0 1 0 1
+  END 
+  SlingMFD V4
+  Reference Auto
+  Source none
+  Data 0 1 1 3 0 1 40418.57266631942 0
+  END 
+  LaunchMFD V4
+  Target None
+  Data 0 1 1 3 0 1 0
+  END 
+  CF1_DataA 1 1
+  CF1_DataB 40418.56389045144 10 120000 1 30 150000
+  CF1_SecTgt 
+  mfdShare -1
+  mfdProgram 2
+END_MFD
+
+BEGIN_MFD Right
+  TYPE User
+  MODE Interplanetary
+  Scenario Old
+  MapMFD V5
+  Reference Auto
+  Target moon
+  Center moon
+  Data 0 1 2.976848876810614e-005 0 1 1 1 2 1 1 0 0
+  MassLimit 1e+020
+  CMode 2
+  Config 1 1 1 1 0 0
+  ExtMode 2
+  Periapis Moon
+  END 
+  CorMFD V4
+  Reference Earth
+  Target Moon
+  Source AS-506
+  ActiveProg 1 1
+  DataA 0 3 0 0 0 0
+  DataB 57.6650390625 1 40418.67796835482 0 0 3.042346214622959 0 40421.72265625 0
+  DVProg 0 0 0 1
+  AdvConf 0.1396263401595461 0.1221730476396029 7836915.769461509 2 0
+  Guidance 1
+  END 
+  EjectMFD V5
+  Reference Auto
+  Data 0 1 3 0 1 40418.57266631942 10
+  Guidance 0
+  END 
+  BaseAprMFD V2
+  Reference Auto
+  Target none
+  Source none
+  DataA 0 0 120000 0.0523599 0.0872665 1 1 40418.57266631942 40418.57266631942 0
+  DataB 0 3 0 1 0 1
+  END 
+  SlingMFD V4
+  Reference Auto
+  Source none
+  Data 0 1 1 3 0 1 40418.57266631942 0
+  END 
+  LaunchMFD V4
+  Target None
+  Data 0 1 1 3 0 1 0
+  END 
+  CF1_DataA 1 1
+  CF1_DataB 40418.56389045144 10 120000 1 30 150000
+  CF1_SecTgt 
+  mfdShare 0
+  mfdProgram 4
+END_MFD
+
+
+BEGIN_SHIPS
+AS-506:AMSO\Apollo
+  STATUS Orbiting Earth
+  RPOS 4078133.34 -728619.43 -5085057.30
+  RVEL 6103.896 864.557 4771.363
+  AROT -21.56 87.97 -120.64
+  PRPLEVEL 0:0.707
+  NAVFREQ 0 1 2 3
+  XPDR 0
+  STATE 7
+  ABORTSTATUS 0
+  MJDLOI 40421.723
+  MJDLDG 40422.848
+  MJDSPL 40426.703
+  SPLLON -172.400
+  SPLLAT 10.600
+  MISSIONTIME 9259.405
+  PWR 0.000
+  APPW 0
+END
+END_SHIPS

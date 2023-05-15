@@ -1,0 +1,104 @@
+BEGIN_DESC
+This scenario is shortly after lift off, with global frame view mode.
+
+
+Press twice on action key "J" to abort the flight and see what happen.
+
+
+You can wait for later flight time to see different abort profiles.
+
+
+Mode-1A (0 to 3000m):
+
+The escape tower fire from the top of it, a strong and short down pitch impulse and then, deploy the escape tower "canard" wings, to return the vessel bottom forward (blunt-end forward or BEF attitude). Then, the escape tower will be automatically jettisoned and the parachute sequence will start.
+
+
+Mode-1B (3000m to 30,5km):
+
+This Mode is very similar to Mode 1A. The only difference is that the down pitch impulse is not given, as the vehicle has already enough down pitch. Notice that if during this abort, you pass over the altitude of 30 km, you will have the choice to switch to mode 1C, by simply ejecting manually the escape tower. This remain possible only as long as you are over this altitude.
+
+
+Mode-1C (30,5km to LES jettison):
+
+In this mode, you won't have pitch impulse and escape tower "canard" wings are NOT deployed, because the atmosphere is too thin for them, to be efficient enough. This mode is fully manual. You will need to jettison manually the escape tower by pressing "J" action key. Then you will need to manually turn the vessel bottom forward.
+END_DESC
+
+BEGIN_ENVIRONMENT
+  System AMSO\Sol
+  Date MJD 40418.5640153128
+END_ENVIRONMENT
+
+BEGIN_FOCUS
+  Ship AS-506
+END_FOCUS
+
+BEGIN_CAMERA
+  TARGET AS-506
+  MODE Extern
+  POS 3.04 149.28 80.10
+  TRACKMODE GlobalFrame
+  FOV 60.00
+END_CAMERA
+
+BEGIN_HUD
+  TYPE Surface
+END_HUD
+
+BEGIN_VC
+END_VC
+
+BEGIN_SHIPS
+AS-506:AMSO\Apollo
+  STATUS Orbiting Earth
+  RPOS 3102289.89 947612.25 5483611.98
+  RVEL -327.906 -85.891 228.685
+  AROT 10.30 -28.03 -101.72
+  VROT 0.37 -0.01 0.84
+  AFCMODE 7
+  PRPLEVEL 0:0.938036
+  THLEVEL 0:1.000000 1:1.000000 2:1.000000 5:0.310000 6:0.310000 11:0.300000 12:0.300000
+  NAVFREQ 0 1 2 3
+  XPDR 0
+  STATE 1
+  ABORTSTATUS 0
+  LAUNCHTOWER 1
+  AZIMUTCOR -17.942000
+  MJDLOI 40421.723495
+  MJDLDG 40422.846528
+  MJDSPL 40426.701794
+  SPLLON -172.400000
+  SPLLAT 10.600000
+  MISSIONTIME 9.653603
+  PWR 1.000000
+  APPW 1
+  APST 1
+  APDT 0.000000
+  AZST 1
+  APPROG 0
+  CSMAP1 -1634707484 1057776408 11 1036398988 1051904813 1057776408 1057415608 1058873127 1059941211 1065353216
+  CSMAP2 -341.0 0.68750000 23.43330000 0.00781 -341.0 -341.0 0.0
+  CSMAP3 0.008 0.0 0.0 0.0 0.008 0.000 0.008
+  CSMAP4 0.000 -341.0 -341.0 0.0 0.000 -340.95362 0.00000
+END
+AS-506_LaunchTower:AMSO\LaunchTower
+  STATUS Landed Earth
+  BASE Cape Canaveral:1
+  POS -80.6041204 28.6085107
+  HEADING 270.00
+  AFCMODE 7
+  PRPLEVEL 0:1.000000
+  NAVFREQ 0 0
+  LSTCMD 5
+  GENVAP 3
+  GENSMO 1
+  LSTSIM 340.961429
+  SMKSTA 324.288746
+  THRUST 0.080252
+  CRANAN 1.000000
+  ARMS1A 1.000000
+  ARMS2A 1.000000
+  HOLDSA 1.000000
+  CAPSA 1.000000
+  VAPTIM 0.000000
+END
+END_SHIPS

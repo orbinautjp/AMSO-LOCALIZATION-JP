@@ -1,0 +1,70 @@
+BEGIN_DESC
+Launch Apollo-12 mission from Launch complex 39A. Date 14 November 1969, launch time: 16:22 UT, azimut: 72.029 degrees.
+
+
+You are 5 minutes 30 seconds before launch time.
+
+
+At precisely minus 5 minutes, press "J" action key to retract launch tower arms. Attention, from this point, if you press "J" action key at any time, you will abort the flight.
+
+
+Assuming you have "OrbiterSound" addon installed, if soon after you pressed "J" action key, you start to hear the countdown comments of a speaker, it mean you have a sound pack extension installed, which include the pre-launch sound option. In this case, you have nothing more to do, just enjoy the liftoff. If you just hear the wind and maybe some random ATC, then, when the vapors will smoothly disappear, you will be close from final countdown and you must press "K" alternate action key, precisely at minus 10 seconds, to start the final countdown.
+
+
+For an immediat launch with autopilot, press ENTER key on numeric keypad. To start with full manual control, just put full throttle instead. During ascent with autopilot, any manual control commands will immediately abort autopilot control and ATC sounds.
+
+
+You can watch the "life" of any parts of the stack, after they separate. Just press F4 and use "Select ship" function.
+END_DESC
+
+BEGIN_ENVIRONMENT
+  System AMSO\Sol
+  Date MJD 40539.678125
+END_ENVIRONMENT
+
+BEGIN_FOCUS
+  Ship AS-507
+END_FOCUS
+
+BEGIN_CAMERA
+  TARGET AS-507
+  MODE Extern
+  POS 3.40 0.00 -91.82
+  TRACKMODE TargetRelative
+  FOV 60.00
+END_CAMERA
+
+BEGIN_HUD
+  TYPE Surface
+END_HUD
+
+BEGIN_MFD Left
+  TYPE Map
+  REF Earth
+  BTARGET Cape Canaveral
+  OTARGET Moon
+  TRACK ON
+END_MFD
+
+BEGIN_MFD Right
+  TYPE Surface
+  SPDMODE 1
+END_MFD
+
+BEGIN_SHIPS
+AS-507:AMSO\Apollo
+  STATUS Landed Earth
+  BASE Cape Canaveral:1
+  HEADING 270.00
+  PRPLEVEL 0:1.000
+  NAVFREQ 0 1 2 3
+  STATE 0
+  LAUNCHTOWER 1
+  AZIMUTCOR -17.971
+  MJDLOI 40543.157905
+  MJDLDG 40544.287917
+  MJDSPL 40549.873900
+  SPLLON -165.15
+  SPLLAT -15.78
+END
+END_SHIPS

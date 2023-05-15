@@ -1,0 +1,156 @@
+BEGIN_DESC
+TLI
+
+
+Historical GET: 003:12:36.60
+END_DESC
+
+BEGIN_ENVIRONMENT
+  System AMSO\Sol
+  Date MJD 41658.3623808125
+END_ENVIRONMENT
+
+BEGIN_FOCUS
+  Ship AS-512
+END_FOCUS
+
+BEGIN_CAMERA
+  TARGET AS-512
+  MODE Cockpit
+  FOV 60.00
+END_CAMERA
+
+BEGIN_HUD
+  TYPE Surface
+END_HUD
+
+BEGIN_MFD Left
+  TYPE User
+  MODE Interplanetary
+  Scenario Old
+  MapMFD V5
+  Reference Auto
+  Target MOON
+  Center MOON
+  Data 0 1 2.20060098316936e-005 0 1 1 0 0 1 1 0 0
+  MassLimit 1e+020
+  CMode 2
+  Config 1 1 1 1 0 0
+  ExtMode 2
+  Periapis Moon
+  END 
+  CorMFD V4
+  Reference Earth
+  Target Moon
+  Source AS-512
+  ActiveProg 1 1
+  DataA 0 3 0 0 0 0
+  DataB 38.443359375 1 41658.36674703396 0 0 5.488370705854914 0 41661.82421875 0
+  DVProg 0 0 0 1
+  AdvConf 0.3211405823669563 6.206390820091834 10181510.28863249 2 0
+  Guidance 1
+  END 
+  EjectMFD V5
+  Reference Auto
+  Data 0 1 3 0 1 41658.23947123148 10
+  Guidance 0
+  END 
+  BaseAprMFD V2
+  Reference Auto
+  Target none
+  Source none
+  DataA 0 0 120000 0.10821 0.366519 1 1 41658.23947123148 41658.23947123148 0
+  DataB 0 3 0 1 0 1
+  END 
+  SlingMFD V4
+  Reference Auto
+  Source none
+  Data 0 1 1 3 0 1 41658.23947123148 0
+  END 
+  LaunchMFD V4
+  Target None
+  Data 0 1 1 3 0 1 0
+  END 
+  CF1_DataA 1 1
+  CF1_DataB 41658.23125482001 10 120000 1 30 150000
+  CF1_SecTgt Taurus Littrow
+  mfdShare -1
+  mfdProgram 2
+END_MFD
+
+BEGIN_MFD Right
+  TYPE User
+  MODE Interplanetary
+  Scenario Old
+  MapMFD V5
+  Reference Auto
+  Target MOON
+  Center MOON
+  Data 0 1 2.20060098316936e-005 0 1 1 0 0 1 1 0 0
+  MassLimit 1e+020
+  CMode 2
+  Config 1 1 1 1 0 0
+  ExtMode 2
+  Periapis Moon
+  END 
+  CorMFD V4
+  Reference Earth
+  Target Moon
+  Source AS-512
+  ActiveProg 1 1
+  DataA 0 3 0 0 0 0
+  DataB 38.443359375 1 41658.36674703396 0 0 5.488370705854914 0 41661.82421875 0
+  DVProg 0 0 0 1
+  AdvConf 0.3211405823669563 6.206390820091834 10181510.28863249 2 0
+  Guidance 1
+  END 
+  EjectMFD V5
+  Reference Auto
+  Data 0 1 3 0 1 41658.23947123148 10
+  Guidance 0
+  END 
+  BaseAprMFD V2
+  Reference Auto
+  Target none
+  Source none
+  DataA 0 0 120000 0.10821 0.366519 1 1 41658.23947123148 41658.23947123148 0
+  DataB 0 3 0 1 0 1
+  END 
+  SlingMFD V4
+  Reference Auto
+  Source none
+  Data 0 1 1 3 0 1 41658.23947123148 0
+  END 
+  LaunchMFD V4
+  Target None
+  Data 0 1 1 3 0 1 0
+  END 
+  CF1_DataA 1 1
+  CF1_DataB 41658.23125482001 10 120000 1 30 150000
+  CF1_SecTgt Taurus Littrow
+  mfdShare 0
+  mfdProgram 4
+END_MFD
+
+
+BEGIN_SHIPS
+AS-512:AMSO\Apollo
+  STATUS Orbiting Earth
+  RPOS -2052355.99 188894.17 6226490.67
+  RVEL -7328.738 -1183.832 -2379.983
+  AROT -154.61 69.50 114.30
+  PRPLEVEL 0:0.710
+  NAVFREQ 0 1 2 3
+  XPDR 0
+  STATE 7
+  ABORTSTATUS 0
+  MJDLOI 41661.824
+  MJDLDG 41662.828
+  MJDSPL 41670.809
+  SPLLON -166.110
+  SPLLAT -17.880
+  MISSIONTIME 11329.286
+  PWR 0.000
+  APPW 0
+END
+END_SHIPS

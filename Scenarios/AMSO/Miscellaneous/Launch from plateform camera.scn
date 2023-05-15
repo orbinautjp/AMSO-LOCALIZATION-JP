@@ -1,0 +1,77 @@
+BEGIN_DESC
+See the liftoff of Apollo 15, from the launch plateform camera. You will see tail service masts retraction and then, the protection covers closing before the exhaust flams can damage to connectors.
+
+
+Just press "K" key to launch the countdown an enjoy.
+END_DESC
+
+BEGIN_ENVIRONMENT
+  System AMSO\Sol
+  Date MJD 41158.5594271204
+END_ENVIRONMENT
+
+BEGIN_FOCUS
+  Ship AS-510
+END_FOCUS
+
+BEGIN_CAMERA
+  TARGET AS-510
+  MODE Extern
+  POS 3.40 0.00 -91.82
+  TRACKMODE Ground Earth
+  GROUNDLOCATION -80.60422 28.60860 37.00
+  GROUNDDIRECTION -47.28 -42.73
+  FOV 60.00
+END_CAMERA
+
+BEGIN_HUD
+  TYPE Surface
+END_HUD
+
+BEGIN_MFD Left
+  TYPE Map
+  REF Earth
+  BTARGET Cape Canaveral
+  OTARGET Moon
+  TRACK ON
+END_MFD
+
+BEGIN_MFD Right
+  TYPE Surface
+  SPDMODE 1
+END_MFD
+
+
+BEGIN_SHIPS
+AS-510:AMSO\Apollo
+  STATUS Landed Earth
+  BASE Cape Canaveral:1
+  HEADING 270.00
+  PRPLEVEL 0:1.000
+  NAVFREQ 0 1 2 3
+  XPDR 0
+  STATE 0
+  ABORTSTATUS 0
+  LAUNCHTOWER 1
+  AZIMUTCOR -10.000
+  PWR 0.000
+  AZST 0
+END
+AS-510_LaunchTower:AMSO\LaunchTower
+  STATUS Landed Earth
+  BASE Cape Canaveral:1
+  HEADING 270.00
+  PRPLEVEL 0:1.000 1:1.000
+  NAVFREQ 0 0
+  LSTCMD 2
+  LSTSIM 94.532
+  SMKSTA 0.000
+  THRUST 0.000
+  CRANAN 1.000
+  ARMS1A 0.000
+  ARMS2A 0.000
+  HOLDSA 0.000
+  CAPSA 0.000
+  GENSMO 0
+END
+END_SHIPS

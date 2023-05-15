@@ -1,0 +1,112 @@
+BEGIN_DESC
+This scenario require you have the Orbiter parameter "Damage and failure simulation" ACTIVATED !
+
+
+You start just after you got an hover engine malfunction, during the LM PDI. You have lost 20% of thrust and you suspect the guidance is also in trouble !
+
+
+Now, you may play the prudence and immediately execute an "ABORT-STAGE". Or you may decide to wait and see if your LM will still be able to land, even eventually, under your manual control. But, whatever you will do, as long as you continue to descent, don't forget to always survey very carefully your descent rate in parallel with your altitude. If you descent too fast and too low, they will be no more choice ! The LM crew will be condamned to death ! Now, if this situation happen, you may try a possibility little known in AMSO: SAVING THE CSM PILOT. For this, when you realize LM crew is condamned to death, switch immediately the focus to the Apollo CSM vessel and you will survive in the role of the CSM pilot! Then, you may try to return to Earth.
+
+
+If you execute an "ABORT", or more safely, an "ABORT-STAGE" (so you don't keep running an engine potentially damaged), you will see in action the sequence of computer programs who will put you first, back again in orbit and then, executing an emergency Rendezvous with the CSM. The spectacle will be marvellous, as you will be closing the CSM in day light.
+
+
+Don't forget to switch on rendezvous lights & beacons on both vessels, when you will be close enough. 
+
+
+Enjoy !
+END_DESC
+
+BEGIN_ENVIRONMENT
+  System AMSO\Sol
+  Date MJD 41162.9313598818
+END_ENVIRONMENT
+
+BEGIN_FOCUS
+  Ship AS-510_LM_vessel
+END_FOCUS
+
+BEGIN_CAMERA
+  TARGET AS-510_LM_vessel
+  MODE Cockpit
+  FOV 60.00
+END_CAMERA
+
+BEGIN_HUD
+  TYPE Orbit
+  REF AUTO
+END_HUD
+
+BEGIN_VC
+END_VC
+
+BEGIN_SHIPS
+AS-510:AMSO\Apollo
+  STATUS Orbiting Moon
+  RPOS 645036.21 796030.81 1538047.96
+  RVEL 1506.440 -25.188 -618.772
+  AROT 28.34 -51.17 -98.64
+  AFCMODE 7
+  PRPLEVEL 0:0.379550
+  NAVFREQ 0 1 2 3
+  XPDR 0
+  STATE 10
+  ABORTSTATUS 0
+  MJDLOI 41161.837350
+  MJDLDG 41162.928113
+  MJDSPL 41170.865197
+  SPLLON -158.130000
+  SPLLAT 26.130000
+  MISSIONTIME 377228.349084
+  PWR 0.000000
+  DLMS 0
+  SPCEVA 0
+  GOTK1 0
+  GOTK2 0
+  SPCDTH 0
+  LMPDTH 0
+  OPENSM 1
+  SUBSAT 0
+  MAGANT 1
+  PASBRK 0
+  LMCRBK 0
+  BEACON 0
+END
+AS-510_LM_vessel:AMSO\LM_vessel
+  STATUS Orbiting Moon
+  RPOS 833757.95 739828.98 1344265.08
+  RVEL 442.259 -50.993 -277.538
+  AROT 48.98 -70.20 -116.14
+  VROT 0.37 0.00 -0.01
+  AFCMODE 7
+  PRPLEVEL 0:0.413638
+  THLEVEL 0:0.618558 9:0.027855 10:0.027855 11:0.000208 12:0.000208 17:0.000275 18:0.000275
+  NAVFREQ 0 1 2 3
+  XPDR 0
+  STATE 2
+  LANDED 0
+  ABORTED 0
+  APPROG 63
+  LMAP1 11 17 15 0 0 0 0 0 0 0
+  LMAP2 0.0 26.13224000 3.63400000 0.00000 -391.8 182.2 8339.2
+  LMAP3 0.000 0.0 0.0 0.0 0.000 0.000 0.000
+  LMAP4 0.000 -364.5 -370250.3 -0.1 0.000 -370250.31966 0.00000
+  EVENTTIME 390.693111
+  DAMAGE 3
+  DAMCNTDWN 0
+  BEACON 0
+  C1DEAD 0
+  C2DEAD 0
+  CRWGON 0
+END
+AS-510_Apollo_SIM_panel:AMSO\Apollo_SIM_panel
+  STATUS Orbiting Sun
+  RPOS 92166683938.00 3334961.13 -120674885089.08
+  RVEL 24184.026 452.361 18278.066
+  AROT -174.34 27.96 141.13
+  VROT 2.68 3.04 0.03
+  AFCMODE 7
+  PRPLEVEL 0:1.000000
+  NAVFREQ 0 0
+END
+END_SHIPS

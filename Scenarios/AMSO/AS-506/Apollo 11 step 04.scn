@@ -1,0 +1,75 @@
+BEGIN_DESC
+You just get Earth circular orbit at 187.7 km (101.35 nm).
+
+
+Time now to prepare TLI (Trans-Lunar Injection).
+
+
+You may align your orbit plan with Moon orbit plan, using Orbiter "Align" instrument and then, prepare injection into trans-lunar orbit, with Orbiter "Transfer" instrument. But it is better to use "IMFD" instrument addon, like demonstrated in the next scenario step.
+END_DESC
+
+BEGIN_ENVIRONMENT
+  System AMSO\Sol
+  Date MJD 40418.5726153472
+END_ENVIRONMENT
+
+BEGIN_FOCUS
+  Ship AS-506
+END_FOCUS
+
+BEGIN_CAMERA
+  TARGET AS-506
+  MODE Extern
+  POS 1.81 50.99 154.27
+  TRACKMODE TargetRelative
+  FOV 60.00
+END_CAMERA
+
+BEGIN_HUD
+  TYPE Surface
+END_HUD
+
+BEGIN_MFD Left
+  TYPE Map
+  REF Earth
+  BTARGET Cape Canaveral
+  OTARGET Moon
+  TRACK ON
+END_MFD
+
+BEGIN_MFD Right
+  TYPE Surface
+  SPDMODE 1
+END_MFD
+
+
+BEGIN_SHIPS
+AS-506:AMSO\Apollo
+  STATUS Orbiting Earth
+  RPOS 89633.06 1024415.53 6477627.45
+  RVEL -7793.830 -121.906 127.047
+  AROT -21.56 87.97 -120.64
+  PRPLEVEL 0:0.707
+  NAVFREQ 0 1 2 3
+  XPDR 0
+  STATE 7
+  ABORTSTATUS 0
+  MJDLOI 40421.723
+  MJDLDG 40422.848
+  MJDSPL 40426.703
+  SPLLON -172.400
+  SPLLAT 10.600
+  MISSIONTIME 753.831
+  PWR 0.000
+  APPW 0
+END
+AS-506_Stage2:AMSO\Saturn_STG2
+  STATUS Orbiting Earth
+  RPOS 199884.83 1019469.34 6434682.72
+  RVEL -6861.066 -140.815 -192.218
+  AROT 109.38 85.99 9.58
+  VROT 0.10 -0.01 0.00
+  NAVFREQ 0 0
+  STATE 2
+END
+END_SHIPS

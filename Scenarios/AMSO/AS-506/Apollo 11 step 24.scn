@@ -1,0 +1,263 @@
+BEGIN_DESC
+On the way to the Earth.
+
+
+Course correction #5.
+
+
+IMFD instrument is all set for the course correction burn #5 at schreduled historical time. You just have to activate IMFD auto-burn function.
+
+
+REMARK: Unfortunately IMFD "Base Approach" is not very precise for TEI burn and trans Earth MCC. You will remark that this correction is almost retrograde, which mean the TEI burn had probably a too high Delta-V.
+
+
+Real flight plan: 22nd July at 19:57 UT.
+END_DESC
+
+BEGIN_ENVIRONMENT
+  System AMSO\Sol
+  Date MJD 40424.8268742859
+END_ENVIRONMENT
+
+BEGIN_FOCUS
+  Ship AS-506
+END_FOCUS
+
+BEGIN_CAMERA
+  TARGET AS-506
+  MODE Cockpit
+  FOV 60.00
+END_CAMERA
+
+BEGIN_HUD
+  TYPE Orbit
+  REF AUTO
+END_HUD
+
+BEGIN_MFD Left
+  TYPE User
+  MODE Interplanetary
+  Scenario Old
+  MapMFD V5
+  Reference earth
+  Target none
+  Center earth
+  Data 1 1 1.043967641789592e-005 0 1 1 0 0 1 0 0 0
+  MassLimit 1e+020
+  CMode 0
+  Config 1 1 1 1 0 0
+  ExtMode 2
+  Periapis Moon
+  END 
+  CorMFD V4
+  Reference Moon
+  Target Ecliptic
+  Source AS-506
+  ActiveProg 0 1
+  DataA 0 3 0 0 0 0
+  DataB 1 1 40424.06469465631 0 0 0 0 0 0
+  DVProg 0 0 0 1
+  AdvConf 0 0 0 0 0
+  Guidance 0
+  END 
+  EjectMFD V5
+  Reference Auto
+  Data 1 1 3 0 3 40424.2072813577 1301.41
+  Guidance 0
+  END 
+  BaseAprMFD V2
+  Reference Earth
+  Target none
+  Source AS-506
+  DataA -3.00895 0.185005 3.11185e-008 0.105417 0.366519 1 1 40426.69710341859 40424.83096018872 3
+  DataB 1 3 0 1 0 1
+  END 
+  SlingMFD V4
+  Reference Auto
+  Source AS-506
+  Data 0 1 1 3 0 1 40424.06159822112 0
+  END 
+  LaunchMFD V4
+  Target None
+  Data 0 1 1 3 0 1 0
+  END 
+  CF1_DataA 1 1
+  CF1_DataB 40418.56389123039 10 120000 1 30 150000
+  CF1_SecTgt 
+  mfdShare -1
+  mfdProgram 5
+END_MFD
+
+BEGIN_MFD Right
+  TYPE User
+  MODE Interplanetary
+  Scenario Old
+  MapMFD V5
+  Reference earth
+  Target none
+  Center earth
+  Data 1 1 1.043967641789592e-005 0 1 1 0 0 1 0 0 0
+  MassLimit 1e+020
+  CMode 0
+  Config 1 1 1 1 0 0
+  ExtMode 2
+  Periapis Moon
+  END 
+  CorMFD V4
+  Reference Moon
+  Target Ecliptic
+  Source AS-506
+  ActiveProg 0 1
+  DataA 0 3 0 0 0 0
+  DataB 1 1 40424.06469465631 0 0 0 0 0 0
+  DVProg 0 0 0 1
+  AdvConf 0 0 0 0 0
+  Guidance 0
+  END 
+  EjectMFD V5
+  Reference Auto
+  Data 1 1 3 0 3 40424.2072813577 1301.41
+  Guidance 0
+  END 
+  BaseAprMFD V2
+  Reference Earth
+  Target none
+  Source AS-506
+  DataA -3.00895 0.185005 3.11185e-008 0.105417 0.366519 1 1 40426.69710341859 40424.83096018872 3
+  DataB 1 3 0 1 0 1
+  END 
+  SlingMFD V4
+  Reference Auto
+  Source AS-506
+  Data 0 1 1 3 0 1 40424.06159822112 0
+  END 
+  LaunchMFD V4
+  Target None
+  Data 0 1 1 3 0 1 0
+  END 
+  CF1_DataA 1 1
+  CF1_DataB 40418.56389123039 10 120000 1 30 150000
+  CF1_SecTgt 
+  mfdShare 0
+  mfdProgram 4
+END_MFD
+
+
+BEGIN_SHIPS
+AS-506:AMSO\Apollo
+  STATUS Orbiting Sun
+  RPOS 76237275834.20 -27592814.97 -131447997260.87
+  RVEL 26440.072 -12.907 15327.234
+  AROT 36.15 -10.34 -173.39
+  PRPLEVEL 0:0.078
+  NAVFREQ 0 1 2 3
+  XPDR 0
+  STATE 11
+  ABORTSTATUS 0
+  MJDSPL 40426.703
+  SPLLON -172.400
+  SPLLAT 10.600
+  MISSIONTIME 541121.736
+  PWR 0.000
+  DLMS 1
+  SPCEVA 0
+  SPCDTH 0
+  GOTK1 0
+  GOTK2 0
+  OPENSM 0
+  SUBSAT 0
+  MAGANT 0
+  BEACON 0
+END
+AS-506_Stage3:AMSO\Saturn_STG3
+  STATUS Orbiting Sun
+  RPOS 74372495074.53 76488361.98 -130693418469.69
+  RVEL 21318.806 147.279 16008.661
+  AROT 9.10 68.96 -2.78
+  NAVFREQ 0 1
+  STATE 10
+  EVTT 67296.37
+END
+AS-506_Stage3_conepart1:AMSO\Saturn_STG3C1
+  STATUS Orbiting Earth
+  RPOS -103976247.98 -36423280.55 21558677.60
+  RVEL 2294.605 124.459 -332.726
+  AROT -28.67 24.51 -100.64
+  VROT 7.22 -4.09 -0.73
+  PRPLEVEL 0:1.000
+  NAVFREQ 0 0
+END
+AS-506_Stage3_conepart2:AMSO\Saturn_STG3C2
+  STATUS Orbiting Earth
+  RPOS -92438232.58 -37634849.68 17537370.38
+  RVEL 2454.247 186.207 -354.638
+  AROT -176.36 -56.92 -85.47
+  VROT 5.93 -5.78 0.37
+  PRPLEVEL 0:1.000
+  NAVFREQ 0 0
+END
+AS-506_Stage3_conepart3:AMSO\Saturn_STG3C3
+  STATUS Orbiting Earth
+  RPOS -86569131.37 -31251248.56 16297324.83
+  RVEL 2581.780 195.498 -375.870
+  AROT 139.46 55.96 38.29
+  VROT -7.84 2.83 0.97
+  PRPLEVEL 0:1.000
+  NAVFREQ 0 0
+END
+AS-506_Stage3_conepart4:AMSO\Saturn_STG3C4
+  STATUS Orbiting Earth
+  RPOS -98934767.85 -30257277.76 20451931.30
+  RVEL 2389.411 128.326 -350.122
+  AROT 160.80 -71.93 -49.19
+  VROT -7.17 4.18 -0.66
+  PRPLEVEL 0:1.000
+  NAVFREQ 0 0
+END
+AS-506_US_flag:AMSO\Moon_lab
+  STATUS Landed Moon
+  POS 23.4268469 0.6864653
+  HEADING 288.83
+  NAVFREQ 0 0
+END
+AS-506_Moon_lab_item2:AMSO\Moon_lab
+  STATUS Landed Moon
+  POS 23.4266107 0.6858839
+  HEADING 265.24
+  NAVFREQ 0 0
+END
+AS-506_Moon_lab_item3:AMSO\Moon_lab
+  STATUS Landed Moon
+  POS 23.4263582 0.6857920
+  HEADING 264.70
+  NAVFREQ 0 0
+END
+AS-506_Moon_lab_item4:AMSO\Moon_lab
+  STATUS Landed Moon
+  POS 23.4262762 0.6859483
+  HEADING 328.42
+  NAVFREQ 0 0
+END
+AS-506_Moon_lab_item5:AMSO\Moon_lab
+  STATUS Landed Moon
+  POS 23.4264867 0.6860575
+  HEADING 278.78
+  NAVFREQ 0 0
+END
+AS-506_Moon_lab_item6:AMSO\Moon_lab
+  STATUS Landed Moon
+  POS 23.4266291 0.6856146
+  HEADING 315.71
+  NAVFREQ 0 0
+END
+AS-506_LM_vessel_descent_stage:AMSO\LM_descent
+  STATUS Landed Moon
+  POS 23.4277055 0.6860534
+  HEADING 259.36
+  PRPLEVEL 0:1.000
+  NAVFREQ 0 0
+END
+END_SHIPS
+
+BEGIN_ExtMFD
+END

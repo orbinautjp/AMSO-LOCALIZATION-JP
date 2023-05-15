@@ -1,0 +1,232 @@
+BEGIN_DESC
+Back to free return trajectory.
+
+
+Reality: 14 April 1970 at 8:43 UT.
+
+
+Remark: require "Damage & failure simulation" is ON in Orbiter parameters setup.
+END_DESC
+
+BEGIN_ENVIRONMENT
+  System AMSO\Sol
+  Date MJD 40690.3596710566
+END_ENVIRONMENT
+
+BEGIN_FOCUS
+  Ship AS-508_LM_vessel
+END_FOCUS
+
+BEGIN_CAMERA
+  TARGET AS-508_LM_vessel
+  MODE Cockpit
+  FOV 60.00
+END_CAMERA
+
+BEGIN_HUD
+  TYPE Orbit
+  REF AUTO
+END_HUD
+
+BEGIN_MFD Left
+  TYPE User
+  MODE Interplanetary
+  Scenario Old
+  MapMFD V5
+  Reference earth
+  Target moon
+  Center moon
+  Data 0 1 1.25e-005 0 1 1 1 2 1 2 0 0
+  MassLimit 1e+020
+  CMode 2
+  Config 1 1 1 1 0 0
+  ExtMode 2
+  Periapis Moon
+  END 
+  CorMFD V4
+  Reference Earth
+  Target Moon
+  Source AS-508_LM_vessel
+  ActiveProg 1 1
+  DataA 0 3 0 0 0 0
+  DataB 1 1 40690.36339717933 0 0 2.26648677868143 0 40691.02734375 0
+  DVProg 0 0 0 1
+  AdvConf 6.253514709895677 0.02443460952792059 6528000 2 0
+  Guidance 0
+  END 
+  EjectMFD V5
+  Reference Auto
+  Data 0 1 3 0 1 40690.12950811684 10
+  Guidance 0
+  END 
+  BaseAprMFD V2
+  Reference Auto
+  Target none
+  Source none
+  DataA 0 0 120000 0.10821 0.366519 1 1 40690.12950811684 40690.12950811684 0
+  DataB 0 3 0 1 0 1
+  END 
+  SlingMFD V4
+  Reference Auto
+  Source none
+  Data 0 1 1 3 0 1 40690.12950811684 0
+  END 
+  LaunchMFD V4
+  Target None
+  Data 0 1 1 3 0 1 0
+  END 
+  CF1_DataA 1 1
+  CF1_DataB 40687.80069584976 10 120000 1 30 150000
+  CF1_SecTgt Fra Mauro
+  mfdShare -1
+  mfdProgram 2
+END_MFD
+
+BEGIN_MFD Right
+  TYPE User
+  MODE Interplanetary
+  Scenario Old
+  MapMFD V5
+  Reference earth
+  Target moon
+  Center moon
+  Data 0 1 1.25e-005 0 1 1 1 2 1 2 0 0
+  MassLimit 1e+020
+  CMode 2
+  Config 1 1 1 1 0 0
+  ExtMode 2
+  Periapis Moon
+  END 
+  CorMFD V4
+  Reference Earth
+  Target Moon
+  Source AS-508_LM_vessel
+  ActiveProg 1 1
+  DataA 0 3 0 0 0 0
+  DataB 1 1 40690.36339717933 0 0 2.26648677868143 0 40691.02734375 0
+  DVProg 0 0 0 1
+  AdvConf 6.253514709895677 0.02443460952792059 6528000 2 0
+  Guidance 0
+  END 
+  EjectMFD V5
+  Reference Auto
+  Data 0 1 3 0 1 40690.12950811684 10
+  Guidance 0
+  END 
+  BaseAprMFD V2
+  Reference Auto
+  Target none
+  Source none
+  DataA 0 0 120000 0.10821 0.366519 1 1 40690.12950811684 40690.12950811684 0
+  DataB 0 3 0 1 0 1
+  END 
+  SlingMFD V4
+  Reference Auto
+  Source none
+  Data 0 1 1 3 0 1 40690.12950811684 0
+  END 
+  LaunchMFD V4
+  Target None
+  Data 0 1 1 3 0 1 0
+  END 
+  CF1_DataA 1 1
+  CF1_DataB 40687.80069584976 10 120000 1 30 150000
+  CF1_SecTgt Fra Mauro
+  mfdShare 0
+  mfdProgram 4
+END_MFD
+
+
+BEGIN_SHIPS
+AS-508:AMSO\Apollo
+  STATUS Orbiting Sun
+  RPOS -136876081884.41 13603137.85 -61732191905.83
+  RVEL 11113.797 2.013 -26638.833
+  AROT -165.58 -18.99 -48.49
+  PRPLEVEL 0:0.979
+  DOCKINFO 0:0,AS-508_LM_vessel
+  NAVFREQ 0 1 2 3
+  XPDR 0
+  STATE 10
+  ABORTSTATUS 0
+  MJDLOI 40691.027
+  MJDSPL 40693.754
+  SPLLON -165.370
+  SPLLAT -21.630
+  MISSIONTIME 221095.458
+  PWR 0.000
+  DLMS 0
+  SPCEVA 0
+  SPCDTH 0
+  GOTK1 0
+  GOTK2 0
+  OPENSM 0
+  SUBSAT 0
+  MAGANT 0
+  PASBRK 0
+  DAMAGE 6
+  DAMCNTDWN 5391
+  BEACON 0
+END
+AS-508_Stage3:AMSO\Saturn_STG3
+  STATUS Orbiting Sun
+  RPOS -136872623097.67 13279046.66 -61738222050.33
+  RVEL 11137.354 2.032 -26673.225
+  AROT -60.50 -33.37 37.75
+  PRPLEVEL 0:0.049
+  NAVFREQ 0 1
+  STATE 6
+  EVTT 25453.075
+END
+AS-508_Stage3_conepart1:AMSO\Saturn_STG3C1
+  STATUS Orbiting Sun
+  RPOS -136876744216.89 14232969.79 -61730123411.91
+  RVEL 11106.786 7.621 -26615.281
+  AROT 44.49 26.46 -38.02
+  VROT 8.29 -0.18 1.00
+  PRPLEVEL 0:1.000
+  NAVFREQ 0 0
+END
+AS-508_Stage3_conepart2:AMSO\Saturn_STG3C2
+  STATUS Orbiting Sun
+  RPOS -136876609119.20 14265790.18 -61730039199.57
+  RVEL 11107.148 7.707 -26614.975
+  AROT -46.52 35.61 -28.79
+  VROT 5.53 -6.14 -0.10
+  PRPLEVEL 0:1.000
+  NAVFREQ 0 0
+END
+AS-508_Stage3_conepart3:AMSO\Saturn_STG3C3
+  STATUS Orbiting Sun
+  RPOS -136876592403.70 14141826.23 -61730016172.49
+  RVEL 11107.189 7.424 -26614.903
+  AROT 141.71 59.52 64.76
+  VROT -7.15 -4.30 0.80
+  PRPLEVEL 0:1.000
+  NAVFREQ 0 0
+END
+AS-508_Stage3_conepart4:AMSO\Saturn_STG3C4
+  STATUS Orbiting Sun
+  RPOS -136876727615.46 14109012.28 -61730100270.30
+  RVEL 11106.827 7.338 -26615.208
+  AROT 126.18 -37.96 -55.60
+  VROT -6.03 5.73 -0.13
+  PRPLEVEL 0:1.000
+  NAVFREQ 0 0
+END
+AS-508_LM_vessel:AMSO\LM_vessel
+  STATUS Orbiting Sun
+  RPOS -136876081881.95 13603136.06 -61732191912.81
+  RVEL 11113.797 2.013 -26638.833
+  AROT -76.72 3.30 -19.02
+  PRPLEVEL 0:1.000
+  DOCKINFO 0:0,AS-508
+  NAVFREQ 0 1 2 3
+  XPDR 0
+  STATE 2
+  LANDED 0
+  ABORTED 0
+  ATCON 0
+  BEACON 0
+END
+END_SHIPS

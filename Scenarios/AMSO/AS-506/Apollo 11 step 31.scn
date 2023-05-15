@@ -1,0 +1,110 @@
+BEGIN_DESC
+Astronauts recovery.
+
+
+Time to engage the helicopter.
+
+
+Press "J" key to lift the helicopter SH3-SeaKing on the carrier deck. Switch to helicopter with the "M" key, go to cockpit view and start helicopter engines with "J" key. When the display line appear, press "insert" key to increase collective pitch, retract the landing gears with "G" key and fly to Apollo CM.
+END_DESC
+
+BEGIN_ENVIRONMENT
+  System AMSO\Sol
+  Date MJD 40426.7229451691
+END_ENVIRONMENT
+
+BEGIN_FOCUS
+  Ship AS-506_USS-Hornet
+END_FOCUS
+
+BEGIN_CAMERA
+  TARGET AS-506_USS-Hornet
+  MODE Extern
+  POS 3.39 55.58 -5.70
+  TRACKMODE TargetRelative
+  FOV 40.00
+END_CAMERA
+
+BEGIN_HUD
+  TYPE Surface
+END_HUD
+
+BEGIN_MFD Left
+  TYPE Map
+  REF Earth
+  TRACK ON
+END_MFD
+
+BEGIN_MFD Right
+  TYPE Surface
+  SPDMODE 1
+END_MFD
+
+
+BEGIN_SHIPS
+AS-506:AMSO\Apollo
+  STATUS Landed Earth
+  POS -171.0102868 14.6812316
+  HEADING 334.17
+  PRPLEVEL 0:0.536
+  NAVFREQ 0 1 2 3
+  XPDR 0
+  STATE 18
+  ABORTSTATUS 0
+  MISSIONTIME 704942.187
+  CROSS 20100.000
+  WCROSS 20100.000
+  PWR 0.000
+  CMBUR 1
+END
+AS-506_US_flag:AMSO\Moon_lab
+  STATUS Landed Moon
+  POS 23.4268469 0.6864653
+  HEADING 288.83
+  NAVFREQ 0 0
+END
+AS-506_Moon_lab_item2:AMSO\Moon_lab
+  STATUS Landed Moon
+  POS 23.4266107 0.6858839
+  HEADING 265.24
+  NAVFREQ 0 0
+END
+AS-506_Moon_lab_item3:AMSO\Moon_lab
+  STATUS Landed Moon
+  POS 23.4263582 0.6857920
+  HEADING 264.70
+  NAVFREQ 0 0
+END
+AS-506_Moon_lab_item4:AMSO\Moon_lab
+  STATUS Landed Moon
+  POS 23.4262762 0.6859483
+  HEADING 328.42
+  NAVFREQ 0 0
+END
+AS-506_Moon_lab_item5:AMSO\Moon_lab
+  STATUS Landed Moon
+  POS 23.4264867 0.6860575
+  HEADING 278.78
+  NAVFREQ 0 0
+END
+AS-506_Moon_lab_item6:AMSO\Moon_lab
+  STATUS Landed Moon
+  POS 23.4266291 0.6856146
+  HEADING 315.71
+  NAVFREQ 0 0
+END
+AS-506_LM_vessel_descent_stage:AMSO\LM_descent
+  STATUS Landed Moon
+  POS 23.4277072 0.6860088
+  HEADING 261.91
+  PRPLEVEL 0:1.000
+  NAVFREQ 0 0
+END
+AS-506_USS-Hornet:AMSO\Carrier
+  STATUS Landed Earth
+  POS -171.0375470 14.6499060
+  HEADING 20.00
+  NAVFREQ 0 0
+  STATE 0
+END
+END_SHIPS

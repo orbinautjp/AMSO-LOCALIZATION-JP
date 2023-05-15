@@ -1,0 +1,88 @@
+BEGIN_DESC
+Docking vessel aligment is NOT something as simple as it could seem to be. Therefore, you will get situations, were you might think AMSO is guilty and has bad optical alignements. So, before to write on the forum you found a bug, please do this test.
+
+
+Launch this scenario, do "Ctrl-Alt-UpArrow" to select the LM docking window. Zoom to maximum and do "ctrl-D" to undock. Now, observe for some minutes that the aligment remain correct. Now, press "M" focus toggle key, to switch to CSM. Again do "Ctrl-Alt-UpArrow" and see that here also, the alignment has remained correct.
+
+
+So, for example, if you get both crosses of Orbiter docking instrument perfectly aligned in both vessels and optical aligments do not confirm this, don't accuse AMSO. It really mean that both vessels DO NOT have their respective axis perfectly parallel. The resolution of Orbiter docking instrument for the attitude (rot) is very approximative.
+END_DESC
+
+BEGIN_ENVIRONMENT
+  System AMSO\Sol
+  Date MJD 40419.6817131006
+END_ENVIRONMENT
+
+BEGIN_FOCUS
+  Ship AS-506_LM_vessel
+END_FOCUS
+
+BEGIN_CAMERA
+  TARGET AS-506_LM_vessel
+  MODE Cockpit
+  FOV 60.00
+END_CAMERA
+
+BEGIN_HUD
+  TYPE Orbit
+  REF AUTO
+END_HUD
+
+BEGIN_VC
+END_VC
+
+
+BEGIN_SHIPS
+AS-506:AMSO\Apollo
+  STATUS Orbiting Earth
+  RPOS -205166194.83 5812252.65 45764780.58
+  RVEL -1539.594 -27.439 1.585
+  AROT 177.49 -54.49 -44.08
+  RCSMODE 2
+  PRPLEVEL 0:1.000
+  DOCKINFO 0:0,AS-506_LM_vessel
+  NAVFREQ 0 1 2 3
+  XPDR 0
+  STATE 10
+  ABORTSTATUS 0
+  MJDLOI 40421.723000
+  MJDLDG 40422.848000
+  MJDSPL 40426.703000
+  SPLLON -172.400
+  SPLLAT 10.600
+  MISSIONTIME 96579.871000
+  PWR 0.000
+  DLMS 0
+  SPCEVA 0
+  GOTK1 0
+  GOTK2 0
+  SPCDTH 0
+  LMPDTH 0
+  OPENSM 0
+  SUBSAT 0
+  MAGANT 0
+  PASBRK 0
+  LMCRBK 0
+  BEACON 1
+END
+AS-506_LM_vessel:AMSO\LM_vessel
+  STATUS Orbiting Earth
+  RPOS -205166188.67 5812252.79 45764776.17
+  RVEL -1539.594 -27.439 1.585
+  AROT -83.58 -6.32 -54.98
+  PRPLEVEL 0:1.000
+  DOCKINFO 0:0,AS-506
+  NAVFREQ 0 1 2 3
+  XPDR 0
+  STATE 4
+  LANDED 0
+  ATCON 0
+  BEACON 0
+  C1DEAD 0
+  C2DEAD 0
+  CRWGON 0
+END
+END_SHIPS
+
+BEGIN_ExtMFD
+END

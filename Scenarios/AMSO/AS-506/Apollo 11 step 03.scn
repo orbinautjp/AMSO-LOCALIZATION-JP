@@ -1,0 +1,75 @@
+BEGIN_DESC
+A few seconds before 2st stage separation.
+
+
+Autopilot is activated.
+
+
+After 2st stage separation, "J" action key will allow you to separate Apollo vessel from 3rd stage. But this can be done only if all engines (main and RMS) of 3rd stage are all cut. You may have to do that to abort the flight in case of problems. For example, if the 3rd stage fail to build the Earth parking orbit. 
+END_DESC
+
+BEGIN_ENVIRONMENT
+  System AMSO\Sol
+  Date MJD 40418.5702418981
+END_ENVIRONMENT
+
+BEGIN_FOCUS
+  Ship AS-506
+END_FOCUS
+
+BEGIN_CAMERA
+  TARGET AS-506
+  MODE Extern
+  POS 2.19 67.55 161.04
+  TRACKMODE TargetRelative
+  FOV 60.00
+END_CAMERA
+
+BEGIN_HUD
+  TYPE Surface
+END_HUD
+
+BEGIN_MFD Left
+  TYPE Map
+  REF Earth
+  BTARGET Cape Canaveral
+  OTARGET Moon
+  TRACK ON
+END_MFD
+
+BEGIN_MFD Right
+  TYPE Surface
+  SPDMODE 1
+END_MFD
+
+
+BEGIN_SHIPS
+AS-506:AMSO\Apollo
+  STATUS Orbiting Earth
+  RPOS 1586232.01 1017709.61 6282038.57
+  RVEL -6431.225 145.620 1612.512
+  AROT 5.02 69.85 -93.56
+  VROT 0.18 -0.00 -0.00
+  PRPLEVEL 0:0.022
+  THLEVEL 0:1.000 3:0.000 4:0.000
+  NAVFREQ 0 1 2 3
+  XPDR 0
+  STATE 5
+  ABORTSTATUS 0
+  MJDLOI 40421.723
+  MJDLDG 40422.848
+  MJDSPL 40426.703
+  SPLLON -172.400
+  SPLLAT 10.600
+  MISSIONTIME 548.765
+  PWR 1.000
+  APPW 1
+  APST 10
+  APDT 0.000
+  APPROG 0
+  CSMAP1 0 1 11 0 0 0 0 0 0 0
+  CSMAP2 0.1 0.68750000 23.43330000 0.00000 -418.1 52.3 0.0
+  CSMAP3 0.000 7796.0 0.0 0.0 0.000 -0.018 0.988
+  CSMAP4 -0.156 -418.1 -418.1 -206.5 0.000 -418.10000 0.00000
+END
+END_SHIPS

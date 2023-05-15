@@ -1,0 +1,134 @@
+BEGIN_DESC
+In orbit around the Moon.
+
+
+Orbit check and LM activation.
+
+
+Press "K" key. You will see "Check Orbit>base alignment". Activate this query with "up" arrow key. It will learn you that it is not necessary to correct the orbit. But when you will fly your own Moon mission, don't forget to make this check one or two orbits before to start Moon landing operations. If the cross range is critical or out of limit, run the program "Execute Orbit>base alignment".
+
+
+Now, press "M" key to go in the LM. Press "J" key to activate the LM. Press "M" again to return in the CSM. You are ready for the coming landing operations.
+END_DESC
+
+BEGIN_ENVIRONMENT
+  System AMSO\Sol
+  Date MJD 40422.6647035833
+END_ENVIRONMENT
+
+BEGIN_FOCUS
+  Ship AS-506
+END_FOCUS
+
+BEGIN_CAMERA
+  TARGET AS-506
+  MODE Cockpit
+  FOV 60.00
+END_CAMERA
+
+BEGIN_HUD
+  TYPE Orbit
+  REF AUTO
+END_HUD
+
+BEGIN_MFD Left
+  TYPE Map
+  REF Moon
+  BTARGET Tranquillity
+  TRACK ON
+END_MFD
+
+BEGIN_MFD Right
+  TYPE Surface
+  SPDMODE 1
+END_MFD
+
+
+BEGIN_SHIPS
+AS-506:AMSO\Apollo
+  STATUS Orbiting Moon
+  RPOS 364485.30 34030.98 1810752.65
+  RVEL 1595.840 -65.873 -320.618
+  AROT 174.86 -5.77 -178.87
+  PRPLEVEL 0:0.360
+  DOCKINFO 0:0,AS-506_LM_vessel
+  NAVFREQ 0 1 2 3
+  XPDR 0
+  STATE 10
+  ABORTSTATUS 0
+  MJDLOI 40421.723
+  MJDLDG 40422.848
+  MJDSPL 40426.703
+  SPLLON -172.400
+  SPLLAT 10.600
+  MISSIONTIME 354310.244
+  PWR 0.000
+  DLMS 0
+  SPCEVA 0
+  SPCDTH 0
+  GOTK1 0
+  GOTK2 0
+  OPENSM 0
+  SUBSAT 0
+  MAGANT 0
+  PASBRK 0
+  BEACON 0
+END
+AS-506_Stage3:AMSO\Saturn_STG3
+  STATUS Orbiting Sun
+  RPOS 70342128851.83 48858152.83 -133595224161.92
+  RVEL 21821.200 148.624 15057.337
+  AROT 9.10 68.96 -2.78
+  NAVFREQ 0 1
+  STATE 10
+  EVTT -79636.84
+END
+AS-506_Stage3_conepart1:AMSO\Saturn_STG3C1
+  STATUS Orbiting Sun
+  RPOS 71416359970.43 -24212328.38 -133956162090.17
+  RVEL 26541.524 -172.955 13918.663
+  AROT 150.35 -32.07 76.55
+  VROT 8.26 0.66 0.99
+  PRPLEVEL 0:1.000
+  NAVFREQ 0 0
+END
+AS-506_Stage3_conepart2:AMSO\Saturn_STG3C2
+  STATUS Orbiting Sun
+  RPOS 71418832183.45 -25273832.19 -133957289359.11
+  RVEL 26566.894 -184.210 13903.042
+  AROT -91.88 66.27 -59.79
+  VROT 7.89 -2.43 -0.95
+  PRPLEVEL 0:1.000
+  NAVFREQ 0 0
+END
+AS-506_Stage3_conepart3:AMSO\Saturn_STG3C3
+  STATUS Orbiting Sun
+  RPOS 71419764544.28 -22737955.86 -133957529307.00
+  RVEL 26577.089 -155.727 13899.694
+  AROT 164.25 -16.22 112.00
+  VROT -5.54 -6.24 -0.24
+  PRPLEVEL 0:1.000
+  NAVFREQ 0 0
+END
+AS-506_Stage3_conepart4:AMSO\Saturn_STG3C4
+  STATUS Orbiting Sun
+  RPOS 71417218552.38 -21766556.13 -133956373332.76
+  RVEL 26550.910 -145.352 13915.629
+  AROT 13.03 37.68 23.16
+  VROT -7.68 3.15 -0.81
+  PRPLEVEL 0:1.000
+  NAVFREQ 0 0
+END
+AS-506_LM_vessel:AMSO\LM_vessel
+  STATUS Orbiting Moon
+  RPOS 364486.04 34031.71 1810745.10
+  RVEL 1595.840 -65.873 -320.618
+  AROT 93.38 55.70 -169.72
+  PRPLEVEL 0:1.000
+  DOCKINFO 0:0,AS-506
+  NAVFREQ 0 1 2 3
+  XPDR 0
+  STATE 1
+  ATCON 0
+END
+END_SHIPS

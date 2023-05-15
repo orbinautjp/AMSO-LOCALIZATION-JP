@@ -1,0 +1,72 @@
+BEGIN_DESC
+A few seconds before 1st stage separation.
+
+
+Autopilot is activated.
+
+
+If you press "J" action key at any time, you will abort the flight. After escape tower is jettisoned, abort is done with full CSM stack.
+END_DESC
+
+BEGIN_ENVIRONMENT
+  System AMSO\Sol
+  Date MJD 40418.5654027777
+END_ENVIRONMENT
+
+BEGIN_FOCUS
+  Ship AS-506
+END_FOCUS
+
+BEGIN_CAMERA
+  TARGET AS-506
+  MODE Extern
+  POS 2.75 54.23 153.02
+  TRACKMODE TargetRelative
+  FOV 60.00
+END_CAMERA
+
+BEGIN_HUD
+  TYPE Surface
+END_HUD
+
+BEGIN_MFD Left
+  TYPE Map
+  REF Earth
+  BTARGET Cape Canaveral
+  OTARGET Moon
+  TRACK ON
+END_MFD
+
+BEGIN_MFD Right
+  TYPE Surface
+  SPDMODE 1
+END_MFD
+
+
+BEGIN_SHIPS
+AS-506:AMSO\Apollo
+  STATUS Orbiting Earth
+  RPOS 3023642.59 936490.81 5575461.82
+  RVEL -903.447 114.018 1333.122
+  AROT 10.19 26.18 -89.36
+  VROT 0.46 0.00 0.00
+  PRPLEVEL 0:0.164
+  THLEVEL 0:1.000
+  NAVFREQ 0 1 2 3
+  STATE 1
+  ABORTSTATUS 0
+  LAUNCHTOWER 1
+  AZIMUTCOR -18.000
+  MJDLOI 40421.723
+  MJDLDG 40422.848
+  MJDSPL 40426.703
+  SPLLON -172.400
+  SPLLAT 10.600
+ MISSIONTIME 130.665
+  PWR 1.000
+  APPW 1
+  APST 4
+  APDT -83.957
+  AZST 2
+END
+END_SHIPS

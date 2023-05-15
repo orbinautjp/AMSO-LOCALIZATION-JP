@@ -1,0 +1,69 @@
+BEGIN_DESC
+Launch Apollo-10 mission from Launch complex 39B. Date 18 May 1969, launch time: 16:49 UT, azimut: 72.028 degrees.
+
+
+You are 5 minutes 30 seconds before launch time.
+
+
+At precisely minus 5 minutes, press "J" action key to retract launch tower arms. Attention, from this point, if you press "J" action key at any time, you will abort the flight.
+
+
+Assuming you have "OrbiterSound" addon installed, if soon after you pressed "J" action key, you start to hear the countdown comments of a speaker, it mean you have a sound pack extension installed, which include the pre-launch sound option. In this case, you have nothing more to do, just enjoy the liftoff. If you just hear the wind and maybe some random ATC, then, when the vapors will smoothly disappear, you will be close from final countdown and you must press "K" alternate action key, precisely at minus 10 seconds, to start the final countdown.
+
+
+For an immediat launch with autopilot, press ENTER key on numeric keypad. To start with full manual control, just put full throttle instead. During ascent with autopilot, any manual control commands will immediately abort autopilot control and ATC sounds.
+
+
+You can watch the "life" of any parts of the stack, after they separate. Just press F4 and use "Select ship" function.
+END_DESC
+
+BEGIN_ENVIRONMENT
+  System AMSO\Sol
+  Date MJD 40359.696875
+END_ENVIRONMENT
+
+BEGIN_FOCUS
+  Ship AS-505
+END_FOCUS
+
+BEGIN_CAMERA
+  TARGET AS-505
+  MODE Extern
+  POS 5.372826 1.289155 -95.544226
+  TRACKMODE TargetRelative
+  FOV 60.00
+END_CAMERA
+
+BEGIN_HUD
+  TYPE Surface
+END_HUD
+
+BEGIN_MFD Left
+  TYPE Map
+  REF Earth
+  BTARGET Cape Canaveral
+  OTARGET Moon
+  TRACK ON
+END_MFD
+
+BEGIN_MFD Right
+  TYPE Surface
+  SPDMODE 1
+END_MFD
+
+BEGIN_SHIPS
+AS-505:AMSO\Apollo
+  STATUS Landed Earth
+  BASE Cape Canaveral:2
+  HEADING 270.00
+  PRPLEVEL 0:1.000
+  NAVFREQ 0 1 2 3
+  STATE 0
+  LAUNCHTOWER 1
+  AZIMUTCOR -17.972
+  MJDLOI 40362.364514
+  MJDSPL 40367.703044
+  SPLLON -164.65
+  SPLLAT -15.07
+END
+END_SHIPS

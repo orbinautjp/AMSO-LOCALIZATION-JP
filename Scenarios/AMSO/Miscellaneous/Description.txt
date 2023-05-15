@@ -1,0 +1,3 @@
+BEGIN_DESC
+This folder contains several scenarios with spectacular or interesting situations.
+END_DESC

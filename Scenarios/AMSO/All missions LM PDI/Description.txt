@@ -1,0 +1,8 @@
+BEGIN_DESC
+This folder contains:
+
+
+- All lunar missions pre-PDI scenarios, builded from historical NASA datas.
+
+- Followed by a set of PDI scenarios.
+END_DESC

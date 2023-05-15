@@ -1,0 +1,227 @@
+BEGIN_DESC
+In this scenario, when you will execute the trajectory correction MCC#2, your SPS main thruster engine will fail. So you have now to try to return to Earth without it.
+
+
+Remark: require "Damage & failure simulation" is ON in Orbiter parameters setup.
+END_DESC
+
+BEGIN_ENVIRONMENT
+  System AMSO\Sol
+  Date MJD 40419.6738727662
+END_ENVIRONMENT
+
+BEGIN_FOCUS
+  Ship AS-506
+END_FOCUS
+
+BEGIN_CAMERA
+  TARGET AS-506
+  MODE Cockpit
+  FOV 60.00
+END_CAMERA
+
+BEGIN_HUD
+  TYPE Orbit
+  REF AUTO
+END_HUD
+
+BEGIN_MFD Left
+  TYPE User
+  MODE Interplanetary
+  Scenario Old
+  MapMFD V5
+  Reference Auto
+  Target moon
+  Center moon
+  Data 1 1 1.492846428812793e-005 0 1 1 0 2 1 1 0 0
+  MassLimit 1e+020
+  CMode 2
+  Config 1 1 1 1 0 0
+  ExtMode 2
+  Periapis Moon
+  END 
+  CorMFD V4
+  Reference Earth
+  Target Moon
+  Source AS-506
+  ActiveProg 1 1
+  DataA 0 3 0 0 0 0
+  DataB 1 1 40419.67795412031 0 0 3.041083001760224 0 40421.72265625 0
+  DVProg 0 0 0 1
+  AdvConf 6.000441968356516 0.04886921905584118 9930793.393605821 2 0
+  Guidance 0
+  END 
+  EjectMFD V5
+  Reference Auto
+  Data 0 1 3 0 1 40418.73635896985 10
+  Guidance 0
+  END 
+  BaseAprMFD V2
+  Reference Auto
+  Target none
+  Source none
+  DataA 0 0 120000 0.10821 0.366519 1 1 40418.73635896985 40418.73635896985 0
+  DataB 0 3 0 1 0 1
+  END 
+  SlingMFD V4
+  Reference Auto
+  Source none
+  Data 0 1 1 3 0 1 40418.73635896985 0
+  END 
+  LaunchMFD V4
+  Target None
+  Data 0 1 1 3 0 1 0
+  END 
+  CF1_DataA 1 1
+  CF1_DataB 40418.56389044817 10 120000 1 30 150000
+  CF1_SecTgt Tranquillity
+  mfdShare -1
+  mfdProgram 2
+END_MFD
+
+BEGIN_MFD Right
+  TYPE User
+  MODE Interplanetary
+  Scenario Old
+  MapMFD V5
+  Reference Auto
+  Target moon
+  Center moon
+  Data 1 1 1.492846428812793e-005 0 1 1 0 2 1 1 0 0
+  MassLimit 1e+020
+  CMode 2
+  Config 1 1 1 1 0 0
+  ExtMode 2
+  Periapis Moon
+  END 
+  CorMFD V4
+  Reference Earth
+  Target Moon
+  Source AS-506
+  ActiveProg 1 1
+  DataA 0 3 0 0 0 0
+  DataB 1 1 40419.67795412031 0 0 3.041083001760224 0 40421.72265625 0
+  DVProg 0 0 0 1
+  AdvConf 6.000441968356516 0.04886921905584118 9930793.393605821 2 0
+  Guidance 0
+  END 
+  EjectMFD V5
+  Reference Auto
+  Data 0 1 3 0 1 40418.73635896985 10
+  Guidance 0
+  END 
+  BaseAprMFD V2
+  Reference Auto
+  Target none
+  Source none
+  DataA 0 0 120000 0.10821 0.366519 1 1 40418.73635896985 40418.73635896985 0
+  DataB 0 3 0 1 0 1
+  END 
+  SlingMFD V4
+  Reference Auto
+  Source none
+  Data 0 1 1 3 0 1 40418.73635896985 0
+  END 
+  LaunchMFD V4
+  Target None
+  Data 0 1 1 3 0 1 0
+  END 
+  CF1_DataA 1 1
+  CF1_DataB 40418.56389044817 10 120000 1 30 150000
+  CF1_SecTgt Tranquillity
+  mfdShare 0
+  mfdProgram 4
+END_MFD
+
+
+BEGIN_SHIPS
+AS-506:AMSO\Apollo
+  STATUS Orbiting Earth
+  RPOS -203487809.80 5648990.80 45309686.64
+  RVEL -1533.078 -30.240 -4.819
+  AROT -127.17 -34.70 -72.93
+  RCSMODE 2
+  PRPLEVEL 0:0.991
+  DOCKINFO 0:0,AS-506_LM_vessel
+  NAVFREQ 0 1 2 3
+  XPDR 0
+  STATE 10
+  ABORTSTATUS 0
+  MJDLOI 40421.723
+  MJDLDG 40422.848
+  MJDSPL 40426.703
+  SPLLON -172.400
+  SPLLAT 10.600
+  MISSIONTIME 95902.472
+  PWR 0.000
+  DLMS 0
+  SPCEVA 0
+  SPCDTH 0
+  GOTK1 0
+  GOTK2 0
+  OPENSM 0
+  SUBSAT 0
+  MAGANT 0
+  PASBRK 0
+  DAMAGE 4
+  DAMCNTDWN 0
+  BEACON 0
+END
+AS-506_Stage3:AMSO\Saturn_STG3
+  STATUS Orbiting Sun
+  RPOS 64627492728.77 10094086.18 -137315767686.91
+  RVEL 22285.921 161.369 13780.847
+  AROT -165.89 -21.54 -179.49
+  NAVFREQ 0 1 2 3
+  STATE 10
+  EVTT 81022.19
+END
+AS-506_Stage3_conepart1:AMSO\Saturn_STG3C1
+  STATUS Orbiting Earth
+  RPOS -203910410.88 5835420.40 45572210.31
+  RVEL -1541.960 -27.370 0.721
+  AROT -26.18 -6.54 -24.65
+  VROT 6.13 5.60 0.34
+  PRPLEVEL 0:1.000
+  NAVFREQ 0 0
+END
+AS-506_Stage3_conepart2:AMSO\Saturn_STG3C2
+  STATUS Orbiting Earth
+  RPOS -203885373.06 5854055.98 45659927.89
+  RVEL -1541.809 -27.214 1.458
+  AROT -153.66 -26.73 -7.88
+  VROT 5.72 5.97 -0.23
+  PRPLEVEL 0:1.000
+  NAVFREQ 0 0
+END
+AS-506_Stage3_conepart3:AMSO\Saturn_STG3C3
+  STATUS Orbiting Earth
+  RPOS -203883930.98 5776392.13 45675982.37
+  RVEL -1541.798 -27.828 1.585
+  AROT -53.67 -66.05 -36.36
+  VROT -8.12 -1.90 -1.03
+  PRPLEVEL 0:1.000
+  NAVFREQ 0 0
+END
+AS-506_Stage3_conepart4:AMSO\Saturn_STG3C4
+  STATUS Orbiting Earth
+  RPOS -203909110.95 5757822.76 45588306.48
+  RVEL -1541.951 -27.982 0.849
+  AROT -33.94 66.77 48.73
+  VROT -6.07 -5.67 0.18
+  PRPLEVEL 0:1.000
+  NAVFREQ 0 0
+END
+AS-506_LM_vessel:AMSO\LM_vessel
+  STATUS Orbiting Earth
+  RPOS -203487805.49 5648985.77 45309682.88
+  RVEL -1533.078 -30.240 -4.819
+  AROT -47.61 14.66 -36.04
+  PRPLEVEL 0:1.000
+  DOCKINFO 0:0,AS-506
+  NAVFREQ 0 1 2 3
+  XPDR 0
+  STATE 1
+  ATCON 0
+END
+END_SHIPS

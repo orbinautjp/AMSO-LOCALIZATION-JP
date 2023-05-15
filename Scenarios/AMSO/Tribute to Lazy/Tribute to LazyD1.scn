@@ -1,0 +1,157 @@
+BEGIN_DESC
+A Tribute to a man who left us too soon.
+
+
+ATTENTION !!! IF YOUR SOUND INSTALLATION IS SET TO PLAY MUSIC, YOU MUST ABSOLUTELY DISABLE THIS FEATURE FOR THIS MISSION.
+
+
+The famous LazyD PDI & landing autopilot guidance code, will transport you safely and with its legendary precision, to re-visit the Taurus Littrow Apollo 17 site. There, you will found a Memorial monument, dedicated to LazyD, near the old Apollo 17 base, sleeping there since December 1972.
+
+
+Please, visit this monument and install the US Flag nearby. This will be your contribution to the memory of LazyD, a great generous guy, member of AMSO team and good friend.
+
+
+This fictitious Moon landing mission start the 15 December 2007, soon after LazyD death.
+END_DESC
+
+BEGIN_ENVIRONMENT
+  System AMSO\Sol
+  Date MJD 54449.1518294
+END_ENVIRONMENT
+
+BEGIN_FOCUS
+  Ship AS-999_LM_vessel
+END_FOCUS
+
+BEGIN_CAMERA
+  TARGET AS-999_LM_vessel
+  MODE Extern
+  POS 1.81 179.23 -163.01
+  TRACKMODE TargetRelative
+  FOV 60.00
+END_CAMERA
+
+BEGIN_HUD
+  TYPE Surface
+END_HUD
+
+BEGIN_MFD Left
+  TYPE Map
+  REF Moon
+  BTARGET Taurus Littrow
+  OTARGET AS-999
+  TRACK ON
+END_MFD
+
+BEGIN_MFD Right
+  TYPE Surface
+  SPDMODE 1
+END_MFD
+
+
+BEGIN_SHIPS
+AS-999:AMSO\Apollo
+  STATUS Orbiting Moon
+  RPOS -1235334.57 341926.21 -1331349.58
+  RVEL -1053.953 541.942 1117.046
+  AROT 10.42 10.23 -68.03
+  PRPLEVEL 0:0.411
+  NAVFREQ 0 1 2 3
+  XPDR 0
+  STATE 10
+  ABORTSTATUS 0
+  MISSIONTIME 396168.180
+  PWR 0.000
+  DLMS 0
+  SPCEVA 0
+  SPCDTH 0
+  GOTK1 0
+  GOTK2 0
+  OPENSM 1
+  SUBSAT 0
+  MAGANT 0
+  PASBRK 0
+  BEACON 0
+END
+AS-999_LM_vessel:AMSO\LM_vessel
+  STATUS Orbiting Moon
+  RPOS -1262799.34 371964.81 -1158929.87
+  RVEL -986.348 530.383 1254.424
+  AROT 3.99 -7.13 112.05
+  PRPLEVEL 0:0.976
+  NAVFREQ 0 1 2 3
+  XPDR 0
+  STATE 2
+  LANDED 0
+  ABORTED 0
+  ATCON 0
+  BEACON 0
+END
+AS-512_US_flag:AMSO\Moon_lab
+  STATUS Landed Moon
+  POS 30.7708166 20.1870239
+  HEADING 274.91
+  NAVFREQ 0 0
+END
+AS-512_Moon_lab_item2:AMSO\Moon_lab
+  STATUS Landed Moon
+  POS 30.7699567 20.1870390
+  HEADING 268.67
+  NAVFREQ 0 0
+END
+AS-512_Moon_lab_item3:AMSO\Moon_lab
+  STATUS Landed Moon
+  POS 30.7699035 20.1867437
+  HEADING 257.54
+  NAVFREQ 0 0
+END
+AS-512_Moon_lab_item4:AMSO\Moon_lab
+  STATUS Landed Moon
+  POS 30.7703027 20.1875137
+  HEADING 225.01
+  NAVFREQ 0 0
+END
+AS-512_Moon_lab_item5:AMSO\Moon_lab
+  STATUS Landed Moon
+  POS 30.7704911 20.1872182
+  HEADING 276.53
+  NAVFREQ 0 0
+END
+AS-512_Moon_lab_item6:AMSO\Moon_lab
+  STATUS Landed Moon
+  POS 30.7695286 20.1875029
+  HEADING 272.98
+  NAVFREQ 0 0
+END
+AS-512_Lunar_Rover:AMSO\Lunar_Rover
+  STATUS Landed Moon
+  POS 30.7755276 20.1863525
+  HEADING 130.71
+  PRPLEVEL 0:0.997
+  NAVFREQ 0 0
+  EVATC1 0.000
+  EVATC2 15.000
+  CREW1 0
+  CREW2 0
+  EXHC1 0
+  EXHC2 0
+  DRILL1 0
+  DRILL2 0
+END
+AS-512_LM_vessel_descent_stage:AMSO\LM_descent
+  STATUS Landed Moon
+  POS 30.7717194 20.1871427
+  HEADING 277.76
+  PRPLEVEL 0:1.000
+  NAVFREQ 0 0
+END
+AS-999_Apollo_SIM_panel:AMSO\Apollo_SIM_panel
+  STATUS Orbiting Sun
+  RPOS 25153150291.62 66538994.61 144966402404.35
+  RVEL -30256.609 423.773 6110.746
+  AROT -120.63 60.46 -79.59
+  VROT 3.76 -1.49 -0.44
+  PRPLEVEL 0:1.000
+  NAVFREQ 0 0
+END
+END_SHIPS

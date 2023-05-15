@@ -1,0 +1,122 @@
+BEGIN_DESC
+Astronauts recovery.
+
+
+Carrier landing & "welcome back" ceremony.
+
+
+Press "G" key to deploy landing gears. Land on the central part of the carrier deck. Press "J" key to stop engines. When rotors are stopped, press "D" key to open SH3-SeaKing door. Then, press once alternate action key "K" to start the "welcome back" ceremony.
+END_DESC
+
+BEGIN_ENVIRONMENT
+  System AMSO\Sol
+  Date MJD 40426.7359679546
+END_ENVIRONMENT
+
+BEGIN_FOCUS
+  Ship AS-506_USS-Hornet_SH3-SeaKing
+END_FOCUS
+
+BEGIN_CAMERA
+  TARGET AS-506_USS-Hornet_SH3-SeaKing
+  MODE Cockpit
+  FOV 40.00
+END_CAMERA
+
+BEGIN_HUD
+  TYPE Surface
+END_HUD
+
+BEGIN_SHIPS
+AS-506:AMSO\Apollo
+  STATUS Landed Earth
+  POS -171.0102868 14.6812316
+  HEADING 334.17
+  PRPLEVEL 0:0.536000
+  NAVFREQ 0 1 2 3
+  XPDR 0
+  STATE 19
+  LANDINGSITE 0
+  ABORTSTATUS 0
+  MISSIONTIME 705593.436000
+  CROSS 20100.000000
+  WCROSS 20100.000000
+  PWR 0.000000
+  SPCDTH 0
+  LMPDTH 0
+  OPENSM 0
+  SUBSAT 0
+  MAGANT 0
+  LMCRBK 2
+  RECUP 3
+  CMBUR 1
+END
+AS-506_US_flag:AMSO\Moon_lab
+  STATUS Landed Moon
+  POS 23.4268469 0.6864653
+  HEADING 288.83
+  NAVFREQ 0 0
+END
+AS-506_Moon_lab_item2:AMSO\Moon_lab
+  STATUS Landed Moon
+  POS 23.4266107 0.6858839
+  HEADING 265.24
+  NAVFREQ 0 0
+END
+AS-506_Moon_lab_item3:AMSO\Moon_lab
+  STATUS Landed Moon
+  POS 23.4263582 0.6857920
+  HEADING 264.70
+  NAVFREQ 0 0
+END
+AS-506_Moon_lab_item4:AMSO\Moon_lab
+  STATUS Landed Moon
+  POS 23.4262762 0.6859483
+  HEADING 328.42
+  NAVFREQ 0 0
+END
+AS-506_Moon_lab_item5:AMSO\Moon_lab
+  STATUS Landed Moon
+  POS 23.4264867 0.6860575
+  HEADING 278.78
+  NAVFREQ 0 0
+END
+AS-506_Moon_lab_item6:AMSO\Moon_lab
+  STATUS Landed Moon
+  POS 23.4266291 0.6856146
+  HEADING 315.71
+  NAVFREQ 0 0
+END
+AS-506_LM_vessel_descent_stage:AMSO\LM_descent
+  STATUS Landed Moon
+  POS 23.4277072 0.6860088
+  HEADING 261.91
+  PRPLEVEL 0:1.000000
+  NAVFREQ 0 0
+  STATE 2
+END
+AS-506_USS-Hornet:AMSO\Carrier
+  STATUS Landed Earth
+  POS -171.0375470 14.6499060
+  HEADING 20.00
+  NAVFREQ 0 0
+  STATE 1
+END
+AS-506_USS-Hornet_SH3-SeaKing:AMSO\Helicopter
+  STATUS Orbiting Earth
+  RPOS 4997241.24 42136.59 3951822.19
+  RVEL -267.840 -133.684 339.993
+  AROT 63.13 20.05 123.39
+  PRPLEVEL 0:0.842228
+  THLEVEL 0:0.783219
+  NAVFREQ 0 0
+  GSTATUS 4
+  RSTATUS 2
+  RSPEED 3.001000
+  DSTATUS 4
+  WSTATUS 4
+  DVSPD -0.000004
+  RECUP 10
+  RECCNT 3
+END
+END_SHIPS

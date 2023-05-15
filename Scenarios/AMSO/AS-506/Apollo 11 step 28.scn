@@ -1,0 +1,158 @@
+BEGIN_DESC
+On the way to the Earth.
+
+
+Entry interface (alt: 122 km).
+
+
+Just let the capsule fly with the present attitude and you will get a precise atmospheric reentry, with both max "G" peaks and a path profile close to the reality. You may also decide to pilot the capsule with the joystick. On this matter, consult the documentation chapter about aero-dynamic lift, to know how to proceed.
+
+
+Real flight plan: 24nd July at 16:37 UT.
+END_DESC
+
+BEGIN_ENVIRONMENT
+  System AMSO\Sol
+  Date MJD 40426.6922147026
+END_ENVIRONMENT
+
+BEGIN_FOCUS
+  Ship AS-506
+END_FOCUS
+
+BEGIN_CAMERA
+  TARGET AS-506
+  MODE Cockpit
+  FOV 60.00
+END_CAMERA
+
+BEGIN_HUD
+  TYPE Orbit
+  REF AUTO
+END_HUD
+
+BEGIN_MFD Left
+  TYPE Map
+  REF Earth
+  TRACK ON
+END_MFD
+
+BEGIN_MFD Right
+  TYPE Surface
+  SPDMODE 1
+END_MFD
+
+
+BEGIN_SHIPS
+AS-506:AMSO\Apollo
+  STATUS Orbiting Earth
+  RPOS 6476829.09 -752559.18 88473.47
+  RVEL -1023.140 4338.215 10078.778
+  AROT -156.73 -5.14 173.56
+  PRPLEVEL 0:0.996
+  NAVFREQ 0 1 2 3
+  XPDR 0
+  STATE 12
+  ABORTSTATUS 0
+  MISSIONTIME 702287.117
+  CROSS 11.900
+  WCROSS 11.900
+  PWR 0.000
+  DLMS 1
+  SPCEVA 0
+  SPCDTH 0
+  GOTK1 0
+  GOTK2 0
+  OPENSM 0
+  SUBSAT 0
+  MAGANT 0
+  CMBUR 0
+END
+AS-506_Stage3:AMSO\Saturn_STG3
+  STATUS Orbiting Sun
+  RPOS 77770776014.86 100148320.75 -128047571260.40
+  RVEL 20847.229 146.339 16824.244
+  AROT 9.10 68.96 -2.78
+  NAVFREQ 0 1
+  STATE 10
+  EVTT -203824.02
+END
+AS-506_Stage3_conepart1:AMSO\Saturn_STG3C1
+  STATUS Orbiting Earth
+  RPOS -245905083.48 77198341.03 16570478.53
+  RVEL -1160.361 76.492 138.405
+  AROT -65.78 -75.67 -54.29
+  VROT 8.26 -0.73 1.00
+  PRPLEVEL 0:1.000
+  NAVFREQ 0 0
+END
+AS-506_Stage3_conepart2:AMSO\Saturn_STG3C2
+  STATUS Orbiting Sun
+  RPOS 80303939214.38 76271998.03 -128820918411.18
+  RVEL 23617.097 86.463 15828.954
+  AROT -0.92 39.44 62.06
+  VROT 7.54 3.38 0.87
+  PRPLEVEL 0:1.000
+  NAVFREQ 0 0
+END
+AS-506_Stage3_conepart4:AMSO\Saturn_STG3C4
+  STATUS Orbiting Sun
+  RPOS -89940399521.01 -293405274757.37 -31855968517.38
+  RVEL -1266003.167 -2221334.770 749834.924
+  AROT -84.89 -56.50 -85.35
+  VROT -6099.70 16763.45 -574.06
+  PRPLEVEL 0:1.000
+  NAVFREQ 0 0
+END
+AS-506_US_flag:AMSO\Moon_lab
+  STATUS Landed Moon
+  POS 23.4268469 0.6864653
+  HEADING 288.83
+  NAVFREQ 0 0
+END
+AS-506_Moon_lab_item2:AMSO\Moon_lab
+  STATUS Landed Moon
+  POS 23.4266107 0.6858839
+  HEADING 265.24
+  NAVFREQ 0 0
+END
+AS-506_Moon_lab_item3:AMSO\Moon_lab
+  STATUS Landed Moon
+  POS 23.4263582 0.6857920
+  HEADING 264.70
+  NAVFREQ 0 0
+END
+AS-506_Moon_lab_item4:AMSO\Moon_lab
+  STATUS Landed Moon
+  POS 23.4262762 0.6859483
+  HEADING 328.42
+  NAVFREQ 0 0
+END
+AS-506_Moon_lab_item5:AMSO\Moon_lab
+  STATUS Landed Moon
+  POS 23.4264867 0.6860575
+  HEADING 278.78
+  NAVFREQ 0 0
+END
+AS-506_Moon_lab_item6:AMSO\Moon_lab
+  STATUS Landed Moon
+  POS 23.4266291 0.6856146
+  HEADING 315.71
+  NAVFREQ 0 0
+END
+AS-506_LM_vessel_descent_stage:AMSO\LM_descent
+  STATUS Landed Moon
+  POS 23.4277055 0.6860534
+  HEADING 259.36
+  PRPLEVEL 0:1.000
+  NAVFREQ 0 0
+END
+AS-506_service_module:AMSO\Apollo_SM
+  STATUS Orbiting Earth
+  RPOS 6474525.11 -754313.30 83605.87
+  RVEL -1025.910 4336.703 10074.355
+  AROT 19.63 -25.40 7.11
+  NAVFREQ 0 0
+  STATE 2
+END
+END_SHIPS
