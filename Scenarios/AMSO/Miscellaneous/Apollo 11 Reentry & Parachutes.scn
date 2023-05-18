@@ -1,6 +1,8 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 This scenario feature the end of Apollo 11 reentry and parachute sequence.
-END_DESC
+</body>
+END_HYPERDESC
 
 
 BEGIN_ENVIRONMENT

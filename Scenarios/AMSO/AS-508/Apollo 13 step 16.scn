@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 Astronauts recovery.
 
 
@@ -6,7 +7,8 @@ Ready to lift astronauts.
 
 
 Press "D" key to open SH3-SeaKing door. Then, use alternate action key "K" to perform the whole recovery sequence, step by step.
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

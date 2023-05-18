@@ -1,6 +1,8 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 You have reached the Monument and you are ready to begin the ceremony by planting the flag in the floor of the Moon.
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

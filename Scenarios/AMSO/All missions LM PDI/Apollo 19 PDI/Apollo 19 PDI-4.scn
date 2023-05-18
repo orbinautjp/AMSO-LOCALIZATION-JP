@@ -1,6 +1,8 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 Soon before to enter in the landing phase.
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

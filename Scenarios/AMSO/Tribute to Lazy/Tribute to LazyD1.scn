@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 A Tribute to a man who left us too soon.
 
 
@@ -12,7 +13,8 @@ Please, visit this monument and install the US Flag nearby. This will be your co
 
 
 This fictitious Moon landing mission start the 15 December 2007, soon after LazyD death.
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

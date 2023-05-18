@@ -1,9 +1,11 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 Behind the Moon, on free return trajectory.
 
 
 Remark: require "Damage & failure simulation" is ON in Orbiter parameters setup.
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

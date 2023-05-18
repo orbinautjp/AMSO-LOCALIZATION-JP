@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 On the Moon surface.
 
 
@@ -9,7 +10,8 @@ Press "K" key to start EVA activities. "M" will then toggle focus between astron
 
 
 Real flight plan: 21th July at 6:02 UT.
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

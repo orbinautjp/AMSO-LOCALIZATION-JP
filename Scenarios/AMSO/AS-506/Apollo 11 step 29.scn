@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 On the way to the Earth.
 
 
@@ -6,7 +7,8 @@ Entry: Parachute sequence.
 
 
 An external view to observe the parachute deployment sequence.
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

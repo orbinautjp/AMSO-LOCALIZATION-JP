@@ -1,9 +1,11 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 Apollo 17, the ejection of the SIM bay panel, short before LOI.
 
 
 Press "K" key and then "Up arrow" key to eject the panel.
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

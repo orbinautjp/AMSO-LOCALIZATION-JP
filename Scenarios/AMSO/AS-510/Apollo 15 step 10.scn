@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 Mission at: GET 101 35 20
 
 
@@ -10,7 +11,8 @@ Close from CSM orbit circularization
 Burn will occur at: GET 101 45 22
 
 (Historical time: GET 101 38 58)
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

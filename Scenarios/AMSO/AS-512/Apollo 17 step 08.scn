@@ -1,9 +1,11 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 First DOI made by the CSM.
 
 
 Historical GET: 090:31:37.43
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

@@ -1,9 +1,11 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 This scenario demonstrate the deployment and the equipment of Apollo 16 Lunar Rover.
 
 
 Just press "K" key and enjoy!
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

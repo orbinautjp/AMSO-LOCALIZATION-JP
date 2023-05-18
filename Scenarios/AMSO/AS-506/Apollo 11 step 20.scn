@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 In orbit around the Moon.
 
 
@@ -9,7 +10,8 @@ This is the fictitious P36 program which operate the final rendez-vous manoeuver
 
 
 Real flight plan: 21th July at 20:30 UT.
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

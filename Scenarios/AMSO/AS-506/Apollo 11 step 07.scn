@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 On the way to the Moon.
 
 
@@ -9,7 +10,8 @@ Use attitude thruster in linear mode to stay aligned with the aim device on the 
 
 
 When you are docked, you can use "Ctrl-D" key to simply undock. To extract the LM from 3rd stage, you will need to use "J" action key.
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

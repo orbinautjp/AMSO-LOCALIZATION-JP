@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 Mission at: GET 001 56 18
 
 
@@ -8,7 +9,8 @@ LunarTransfertMFD is set for TLI
 Burn will occur at: GET 002 50 02 
 
 (Historical time)
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

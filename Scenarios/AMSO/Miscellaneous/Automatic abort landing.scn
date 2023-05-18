@@ -1,9 +1,11 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 This scenario demonstrate the automatic abort landing, because the descent stage consumed all its fuel.
 
 
 Just load the scenario and enjoy the spectacle !
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

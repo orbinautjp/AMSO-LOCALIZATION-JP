@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 This scenario require you have the Orbiter parameter "Damage and failure simulation" ACTIVATED !
 
 
@@ -15,7 +16,8 @@ Don't forget to switch on rendezvous lights & beacons on both vessels, when you 
 
 
 Enjoy !
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

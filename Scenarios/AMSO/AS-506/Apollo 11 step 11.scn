@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 In orbit around the Moon.
 
 
@@ -12,7 +13,8 @@ Press "K" key to open the menu, select "Engage parking orbit circularization" wi
 
 
 Real flight plan: 19th July at 21:42 UT.
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

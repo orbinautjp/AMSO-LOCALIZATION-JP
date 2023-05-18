@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 Launch Apollo-12 mission from Launch complex 39A. Date 14 November 1969, launch time: 16:22 UT, azimut: 72.029 degrees.
 
 
@@ -15,7 +16,8 @@ For an immediat launch with autopilot, press ENTER key on numeric keypad. To sta
 
 
 You can watch the "life" of any parts of the stack, after they separate. Just press F4 and use "Select ship" function.
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

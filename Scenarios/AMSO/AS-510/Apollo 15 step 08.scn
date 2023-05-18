@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 Mission at: GET 094 58 58
 
 
@@ -8,7 +9,8 @@ LunarTranfertMFD ready for DOI correction
 Burn will occur at: GET 095 09 12 
 
 (Historical time: GET 095 56 44)
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 On the way to the Moon.
 
 
@@ -14,7 +15,8 @@ Quad S-band high gain antenna will automatically deploy 10 seconds after separat
 Real flight plan: 16th July at 16:52 UT.
 
 Historical time: 16th July at 16:47:23 UT.
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 On the way to the Earth.
 
 
@@ -12,7 +13,8 @@ REMARK: Unfortunately IMFD "Base Approach" is not very precise for TEI burn and 
 
 
 Real flight plan: 22nd July at 19:57 UT.
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

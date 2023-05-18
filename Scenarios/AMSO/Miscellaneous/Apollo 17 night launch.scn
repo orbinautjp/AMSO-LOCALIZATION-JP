@@ -1,9 +1,11 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 See the liftoff of Apollo 17, from a spectacular ground angle of view.
 
 
 First press "J" key. Wait until arms are retracted and then press "K" key to launch the countdown to enjoy the liftoff. 
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

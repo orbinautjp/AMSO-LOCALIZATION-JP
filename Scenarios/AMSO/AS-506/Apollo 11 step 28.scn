@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 On the way to the Earth.
 
 
@@ -9,7 +10,8 @@ Just let the capsule fly with the present attitude and you will get a precise at
 
 
 Real flight plan: 24nd July at 16:37 UT.
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

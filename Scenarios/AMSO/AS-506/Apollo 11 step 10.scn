@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 On the way to the Moon.
 
 
@@ -12,7 +13,8 @@ REMARK: Middle Course Corrections #3 & #4 were not necessary.
 
 
 Real flight plan: 19th July at 17:26 UT
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

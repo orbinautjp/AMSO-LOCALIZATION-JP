@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 In orbit around the Moon.
 
 
@@ -9,7 +10,8 @@ In CSM cockpit, undock the LM with "Ctrl-D" key, when you are aligned with verti
 
 
 Real flight plan: 20th July at 17:42 UT.
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

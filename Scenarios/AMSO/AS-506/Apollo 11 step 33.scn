@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 Astronauts recovery.
 
 
@@ -6,7 +7,8 @@ Carrier landing & "welcome back" ceremony.
 
 
 Press "G" key to deploy landing gears. Land on the central part of the carrier deck. Press "J" key to stop engines. When rotors are stopped, press "D" key to open SH3-SeaKing door. Then, press once alternate action key "K" to start the "welcome back" ceremony.
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

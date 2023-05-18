@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 Mission at: GET 078 00 12
 
 
@@ -8,7 +9,8 @@ LunarTransfertMFD is set for LOI#1
 Burn will occur at: GET 078 31 48 
 
 (Historical time: GET 078 31 46)
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

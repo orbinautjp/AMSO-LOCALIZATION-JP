@@ -1,9 +1,11 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 The first space EVA of the Apollo program, during Apollo 9 mission in Earth orbit.
 
 
 Press "K" key and then "Up arrow" key to start the space EVA.
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

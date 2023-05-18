@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 Mission at: GET 104 23 00
 
 
@@ -10,7 +11,8 @@ Close from LM PDI
 Burn will occur at: GET 104 36 20 
 
 (Historical time: GET 104 30 09)
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

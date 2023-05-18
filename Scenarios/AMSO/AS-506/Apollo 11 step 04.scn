@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 You just get Earth circular orbit at 187.7 km (101.35 nm).
 
 
@@ -6,7 +7,8 @@ Time now to prepare TLI (Trans-Lunar Injection).
 
 
 You may align your orbit plan with Moon orbit plan, using Orbiter "Align" instrument and then, prepare injection into trans-lunar orbit, with Orbiter "Transfer" instrument. But it is better to use "IMFD" instrument addon, like demonstrated in the next scenario step.
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

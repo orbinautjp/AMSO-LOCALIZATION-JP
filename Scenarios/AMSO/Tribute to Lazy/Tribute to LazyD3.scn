@@ -1,9 +1,11 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 You have just landed precisely in the middle of the beacons cross.
 
 
 Now, you must deploy the Lunar Rover, take the US flag with you and drive right toward the direction where the Rover is pointing, along the blue beacons line, to reach the Monument.
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

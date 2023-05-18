@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 A few seconds before 2st stage separation.
 
 
@@ -6,7 +7,8 @@ Autopilot is activated.
 
 
 After 2st stage separation, "J" action key will allow you to separate Apollo vessel from 3rd stage. But this can be done only if all engines (main and RMS) of 3rd stage are all cut. You may have to do that to abort the flight in case of problems. For example, if the 3rd stage fail to build the Earth parking orbit. 
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

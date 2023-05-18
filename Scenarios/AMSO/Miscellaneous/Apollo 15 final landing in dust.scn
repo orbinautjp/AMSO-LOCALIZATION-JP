@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 This scenario demonstrate the dust feature on Moon landing.
 
 
@@ -9,7 +10,8 @@ You may re-run this scenario and set the camera more far away with "Ctrl-DownArr
 
 
 Notice that, if this dust feature is too much for your computer (frame rate), or if you simply don't like it, you can disable it by adding the parameter "NODUST 1" in the LM vessel parameters of any scenario.
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

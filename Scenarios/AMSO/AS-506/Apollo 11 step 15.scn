@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 In orbit around the Moon.
 
 
@@ -9,7 +10,8 @@ Open LM autopilot menu with "K" key and select "Engage PDI" with "left/right" ar
 
 
 Real flight plan: 20th July at 20:08 UT.
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

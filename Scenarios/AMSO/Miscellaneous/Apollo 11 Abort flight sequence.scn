@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 This scenario is shortly after lift off, with global frame view mode.
 
 
@@ -21,7 +22,8 @@ This Mode is very similar to Mode 1A. The only difference is that the down pitch
 Mode-1C (30,5km to LES jettison):
 
 In this mode, you won't have pitch impulse and escape tower "canard" wings are NOT deployed, because the atmosphere is too thin for them, to be efficient enough. This mode is fully manual. You will need to jettison manually the escape tower by pressing "J" action key. Then you will need to manually turn the vessel bottom forward.
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

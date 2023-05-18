@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 On the Moon surface.
 
 
@@ -11,7 +12,8 @@ At this stage and during all Moon stay, you can launch an urgency abort under au
 
 
 Real flight plan: 20th July at 20:19 UT.
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

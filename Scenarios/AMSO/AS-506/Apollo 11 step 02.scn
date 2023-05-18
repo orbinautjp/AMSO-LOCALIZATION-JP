@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 A few seconds before 1st stage separation.
 
 
@@ -6,7 +7,8 @@ Autopilot is activated.
 
 
 If you press "J" action key at any time, you will abort the flight. After escape tower is jettisoned, abort is done with full CSM stack.
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

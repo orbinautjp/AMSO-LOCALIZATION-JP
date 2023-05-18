@@ -1,9 +1,11 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 In this scenario, when you will execute the trajectory correction MCC#2, your SPS main thruster engine will fail. So you have now to try to return to Earth without it.
 
 
 Remark: require "Damage & failure simulation" is ON in Orbiter parameters setup.
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

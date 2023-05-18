@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 In orbit around the Moon.
 
 
@@ -9,7 +10,8 @@ Use the "J" key for the definitive LM separation (no more docking possible after
 
 
 Real flight plan: 22th July at 1:25 UT.
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

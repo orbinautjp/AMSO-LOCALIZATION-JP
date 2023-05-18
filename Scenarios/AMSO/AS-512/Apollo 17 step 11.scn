@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 CSM parking orbit circularization.
 
 
@@ -6,7 +7,8 @@ REMARK: Don't wait to launch the AMSO program, because it will start soon.
 
 
 Historical GET: 109:17:28.92
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 Mission at: GET 028 30 22
 
 
@@ -10,7 +11,8 @@ LunarTransfertMFD is set for TLCC
 Burn will occur at: GET 028 40 22 
 
 (Historical time)
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

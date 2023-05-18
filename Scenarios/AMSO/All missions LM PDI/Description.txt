@@ -1,8 +1,10 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 This folder contains:
 
 
 - All lunar missions pre-PDI scenarios, builded from historical NASA datas.
 
 - Followed by a set of PDI scenarios.
-END_DESC
+</body>
+END_HYPERDESC

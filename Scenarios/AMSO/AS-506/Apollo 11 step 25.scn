@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 On the way to the Earth.
 
 
@@ -9,7 +10,8 @@ IMFD instrument is all set for the course correction burn #6 at schreduled histo
 
 
 Real flight plan: 24nd July at 1:37 UT.
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

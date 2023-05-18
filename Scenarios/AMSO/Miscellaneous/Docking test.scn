@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 Docking vessel aligment is NOT something as simple as it could seem to be. Therefore, you will get situations, were you might think AMSO is guilty and has bad optical alignements. So, before to write on the forum you found a bug, please do this test.
 
 
@@ -6,7 +7,8 @@ Launch this scenario, do "Ctrl-Alt-UpArrow" to select the LM docking window. Zoo
 
 
 So, for example, if you get both crosses of Orbiter docking instrument perfectly aligned in both vessels and optical aligments do not confirm this, don't accuse AMSO. It really mean that both vessels DO NOT have their respective axis perfectly parallel. The resolution of Orbiter docking instrument for the attitude (rot) is very approximative.
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 In orbit around the Moon.
 
 
@@ -9,7 +10,8 @@ Press "K" key. You will see "Check Orbit>base alignment". Activate this query wi
 
 
 Now, press "M" key to go in the LM. Press "J" key to activate the LM. Press "M" again to return in the CSM. You are ready for the coming landing operations.
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

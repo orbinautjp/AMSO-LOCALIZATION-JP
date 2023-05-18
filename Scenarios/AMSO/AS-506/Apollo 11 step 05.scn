@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 A few minutes before TLI (Trans-Lunar Injection).
 
 
@@ -6,7 +7,8 @@ IMFD instrument is all set for the TLI burn. You just have to activate auto-burn
 
 
 Real flight plan: 16th July at 16:16 UT.
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

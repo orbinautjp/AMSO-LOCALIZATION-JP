@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 Time to jettison the Service module.
 
 
@@ -6,7 +7,8 @@ Reality: 17 April 1970 at 13:15 UT.
 
 
 Remark: require "Damage & failure simulation" is ON in Orbiter parameters setup.
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

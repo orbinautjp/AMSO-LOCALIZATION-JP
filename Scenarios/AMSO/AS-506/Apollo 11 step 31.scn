@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 Astronauts recovery.
 
 
@@ -6,7 +7,8 @@ Time to engage the helicopter.
 
 
 Press "J" key to lift the helicopter SH3-SeaKing on the carrier deck. Switch to helicopter with the "M" key, go to cockpit view and start helicopter engines with "J" key. When the display line appear, press "insert" key to increase collective pitch, retract the landing gears with "G" key and fly to Apollo CM.
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 Mission at GET 003 19 41
 
 
@@ -10,7 +11,8 @@ Before separation from S-IVB (3rd stage)
 Docking with parked LM
 
 (Historical time: GET 003 33 49)
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 The famous "hand made" trajectory correction made with the LM.
 
 
@@ -6,7 +7,8 @@ Reality: 16 April 1970 at 4:31 UT.
 
 
 Remark: require "Damage & failure simulation" is ON in Orbiter parameters setup.
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol

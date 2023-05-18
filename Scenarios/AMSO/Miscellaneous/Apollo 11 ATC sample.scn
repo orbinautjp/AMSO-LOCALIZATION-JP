@@ -1,4 +1,5 @@
-BEGIN_DESC
+BEGIN_HYPERDESC
+<body style="font-family: Meiryo;">
 This scenario is short before LM extraction from SIVB 3rd stage.
 
 
@@ -9,7 +10,8 @@ Go to right seat with "Ctrl-Alt-RightArrow". Then, use the mouse with right butt
 
 
 To work as described, this scenario require AMSO Apollo 11 Sound Expension Pack to be installed.
-END_DESC
+</body>
+END_HYPERDESC
 
 BEGIN_ENVIRONMENT
   System AMSO\Sol
