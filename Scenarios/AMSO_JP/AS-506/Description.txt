@@ -1,5 +1,5 @@
 BEGIN_HYPERDESC
 <body style="font-family: Meiryo;">
-This folder contains Apollo 15 mission scenarios.
+<p>アポロ11号ミッションのシナリオ集です。</p>
 </body>
 END_HYPERDESC

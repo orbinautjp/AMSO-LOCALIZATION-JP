@@ -1,5 +1,0 @@
-BEGIN_HYPERDESC
-<body style="font-family: Meiryo;">
-This folder contains several scenarios with all steps of LazyD Monument visit and Ceremony.
-</body>
-END_HYPERDESC

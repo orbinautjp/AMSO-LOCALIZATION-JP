@@ -1,5 +1,5 @@
 BEGIN_HYPERDESC
 <body style="font-family: Meiryo;">
-This folder contains the lift off scenario of all missions.
+<p>AMSOの日本語版シナリオフォルダです。</p>
 </body>
 END_HYPERDESC

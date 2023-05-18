@@ -1,5 +1,0 @@
-BEGIN_HYPERDESC
-<body style="font-family: Meiryo;">
-This folder contains several scenarios with spectacular or interesting situations.
-</body>
-END_HYPERDESC

@@ -1,5 +1,0 @@
-BEGIN_HYPERDESC
-<body style="font-family: Meiryo;">
-This folder contains Apollo 13 mission scenarios, to be used in conjunction with "A13-tutorial.txt".
-</body>
-END_HYPERDESC
