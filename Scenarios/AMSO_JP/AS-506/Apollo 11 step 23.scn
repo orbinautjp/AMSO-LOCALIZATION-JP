@@ -1,15 +1,13 @@
 BEGIN_HYPERDESC
 <body style="font-family: Meiryo;">
-In orbit around the Moon.
+<p>月周回軌道に乗っている。</p>
 
+<p>もうすぐTEI（Trans-Earth Injection = 地球遷移軌道投入）を実行する。</p>
 
-Short before TEI (Trans-Earth Injection).
+<p>IMFDにはTEIに必要なデータがすでに入力されており、噴射時刻は史実と同じに設定されている。<br>
+IMFDのAuto-Burn（自動噴射）を実行するだけでよい。</p>
 
-
-IMFD instrument is all set for the TEI burn at schreduled historical time. You just have to activate auto-burn IMFD function.
-
-
-Real flight plan: 22th July at 4:57 UT.
+<p>史実のフライトプランでは、UT（世界時）の7月22日4:57の予定だった。</p>
 </body>
 END_HYPERDESC
 

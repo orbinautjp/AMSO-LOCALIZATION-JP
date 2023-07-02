@@ -1,12 +1,10 @@
 BEGIN_HYPERDESC
 <body style="font-family: Meiryo;">
-On the way to the Earth.
+<p>地球へ向かって飛行中。</p>
 
+<p>再突入：パラシュート展開。</p>
 
-Entry: Parachute sequence.
-
-
-An external view to observe the parachute deployment sequence.
+<p>機外視点に切り替えると、パラシュートが展開する様子を観察できる。</p>
 </body>
 END_HYPERDESC
 

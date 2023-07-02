@@ -1,15 +1,16 @@
 BEGIN_HYPERDESC
 <body style="font-family: Meiryo;">
-In orbit around the Moon.
+<p>月周回軌道に乗っている。</p>
 
+<p>PDI（Powered Descent Initialisation = 動力降下開始）を実行する。</p>
 
-PDI (Powered Descent Initialisation).
+<p>
+  キーボード<b>K</b>を押すと、LMのオートパイロットメニューが開く。<br>
+  矢印キー<b>←→</b>（左右）で "Engage PDI" を選択。<br>
+  矢印キー<b>↑</b>（上）で実行する。
+</p>
 
-
-Open LM autopilot menu with "K" key and select "Engage PDI" with "left/right" arrow keys. Activate the program with "up" arrow key.
-
-
-Real flight plan: 20th July at 20:08 UT.
+<p>史実のフライトプランでは、UT（世界時）の7月20日20:08の予定だった。</p>
 </body>
 END_HYPERDESC
 

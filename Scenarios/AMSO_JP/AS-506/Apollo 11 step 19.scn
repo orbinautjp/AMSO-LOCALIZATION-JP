@@ -1,15 +1,16 @@
 BEGIN_HYPERDESC
 <body style="font-family: Meiryo;">
-In orbit around the Moon.
+<p>月周回軌道に乗っている。</p>
 
+<p>ランデブーのため、一連のプログラムを開始する。<br>
+（訳注：プレイヤーが操作する必要はなく、全自動で進行します）</p>
 
-Start of rendez-vous sequence of programs.
+<p>プログラムP32によってランデブーシーケンスを開始したところ。<br>
+目標はCSMとなっている。正常に進行すれば、暗い宇宙にCSMの航法灯が黄色い点として見えてくる。<br>
+（訳注：シナリオ開始時点ではCSMは遠くにあるので、ランデブーの終盤にならないと見えない）<br>
+次の噴射で近月点を上昇させ、ランデブーに向けて軌道のかたちを変化させる。</p>
 
-
-Rendez-vous sequence of programs just initiated with P32. You are aiming your target the CSM. You should see CSM position lights glowing in the dark sky as an amber dot. Next burn will raises LM perilune, in order to adjust orbital shape for rendez-vous sequence.
-
-
-Real flight plan: 21th July at 18:53 UT (next burn).
+<p>史実のフライトプランでは、UT（世界時）の7月21日18:53にエンジン噴射の予定だった。</p>
 </body>
 END_HYPERDESC
 

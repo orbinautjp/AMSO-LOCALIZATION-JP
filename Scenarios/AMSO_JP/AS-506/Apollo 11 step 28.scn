@@ -1,15 +1,13 @@
 BEGIN_HYPERDESC
 <body style="font-family: Meiryo;">
-On the way to the Earth.
+<p>地球へ向かって飛行中。</p>
 
+<p>再突入インターフェイス（高度122km）。</p>
 
-Entry interface (alt: 122 km).
+<p>現在の姿勢のままで放置していれば、最大Gと飛行経路のいずれにおいても、史実に近いかたちでの大気圏再突入が実行される。<br>
+また、ジョイスティックを使って手動でカプセルを操縦することもできる。手順はマニュアルのAERODYNAMIC LIFTの項を参照すること。</p>
 
-
-Just let the capsule fly with the present attitude and you will get a precise atmospheric reentry, with both max "G" peaks and a path profile close to the reality. You may also decide to pilot the capsule with the joystick. On this matter, consult the documentation chapter about aero-dynamic lift, to know how to proceed.
-
-
-Real flight plan: 24nd July at 16:37 UT.
+<p>史実のフライトプランでは、UT（世界時）の7月24日16:37の予定だった。</p>
 </body>
 END_HYPERDESC
 

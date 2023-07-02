@@ -1,12 +1,10 @@
 BEGIN_HYPERDESC
 <body style="font-family: Meiryo;">
-A few seconds before 1st stage separation.
+<p>数秒後に第1段を分離する。</p>
 
+<p>打ち上げオートパイロットを実行中。</p>
 
-Autopilot is activated.
-
-
-If you press "J" action key at any time, you will abort the flight. After escape tower is jettisoned, abort is done with full CSM stack.
+<p>キーボード<b>J</b>を押すとミッションを中止する。脱出用ロケットの分離後は、司令・機械船ごと分離される。</p>
 </body>
 END_HYPERDESC
 

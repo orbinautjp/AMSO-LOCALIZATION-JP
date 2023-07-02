@@ -1,12 +1,14 @@
 BEGIN_HYPERDESC
 <body style="font-family: Meiryo;">
-Astronauts recovery.
+<p>宇宙飛行士を回収する。</p>
 
+<p>空母に着艦して、帰還セレモニーをおこなう。</p>
 
-Carrier landing & "welcome back" ceremony.
+<p>キーボード<b>G</b>を押してランディングギアを下ろす。フライトデッキの中央部分に着艦する。<br>
+<b>J</b>を押してエンジンを停止させる。ローターの回転が止まったら、<b>D</b>を押してヘリコプターのドアを開ける。<br>
+この状態で<b>K</b>を押すと、帰還セレモニーが開催される。</p>
 
-
-Press "G" key to deploy landing gears. Land on the central part of the carrier deck. Press "J" key to stop engines. When rotors are stopped, press "D" key to open SH3-SeaKing door. Then, press once alternate action key "K" to start the "welcome back" ceremony.
+<p>訳注：着艦位置が悪いと、空母を貫通して落下することがある。できるだけ艦の中央に降りるとよい。</p>
 </body>
 END_HYPERDESC
 

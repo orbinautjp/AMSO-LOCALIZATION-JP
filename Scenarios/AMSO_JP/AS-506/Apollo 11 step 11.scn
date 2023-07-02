@@ -1,18 +1,16 @@
 BEGIN_HYPERDESC
 <body style="font-family: Meiryo;">
-In orbit around the Moon.
+<p>月周回軌道に乗っている。</p>
 
+<p>2回目のLOI（Lunar Orbit Insertion = 月周回軌道投入）を実行する。</p>
 
-Second LOI (lunar Orbit Insertion) operation.
+<p>CSMかLMのオートパイロットを使って、月パーキング軌道に乗る。</p>
 
+<p>キーボード<b>K</b>を押してメニューを開く。<br>
+矢印キー<b>←→</b>（左右）で "Engage parking orbit circularization" を選択。<br>
+<b>矢印キー↑</b>（上）で実行する。</p>
 
-Use CSM or LM autopilot function to set lunar parking orbit.
-
-
-Press "K" key to open the menu, select "Engage parking orbit circularization" with "left/right" arrow keys. Activate the program with "up" arrow key.
-
-
-Real flight plan: 19th July at 21:42 UT.
+<p>史実のフライトプランでは、UT（世界時）の7月19日21:42の予定だった。</p>
 </body>
 END_HYPERDESC
 

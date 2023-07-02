@@ -1,21 +1,19 @@
 BEGIN_HYPERDESC
 <body style="font-family: Meiryo;">
-Launch Apollo-11 mission from Launch complex 39A. Date 16 July 1969, launch time: 13:32 UT, azimut: 72.058 degrees.
+<p>39A発射台からアポロ11号を打ち上げる。打ち上げ日時は1969年7月16日13:32（協定世界時）。打ち上げ方位角は72.058°。</p>
 
+<p>打ち上げの5分30秒前からゲームが開始する。</p>
 
-You are 5 minutes 30 seconds before launch time.
+<p>
+  5分前になったらキーボードで<b>J</b>を押す。発射台タワーのアームが収納される。<br>
+  これ以降は、<b>J</b>キーを押すとミッションが即時中止されるため注意すること。
+</p>
 
+<p>音声MOD（XRSoundの場合、SoundBridgeが必要）が正しくインストールされていれば、<b>J</b>キーを押した直後にカウントダウン音声が再生される。何かを操作する必要はないので、打ち上げを眺めているだけでよい。</p>
 
-At precisely minus 5 minutes, press "J" action key to retract launch tower arms. Attention, from this point, if you press "J" action key at any time, you will abort the flight.
+<p>カウントダウンをせずに打ち上げる場合は、テンキーの<b>Enter</b>を押すとオートパイロットが開始する。手動で操作する場合は、通常の手順でエンジンを全開にする。オートパイロットでの上昇中に手動で操作すると、オートパイロットと通信音声が無効になる。</p>
 
-
-Assuming you have "OrbiterSound" addon installed, if soon after you pressed "J" action key, you start to hear the countdown comments of a speaker, it mean you have a sound pack extension installed, which include the pre-launch sound option. In this case, you have nothing more to do, just enjoy the liftoff. If you just hear the wind and maybe some random ATC, then, when the vapors will smoothly disappear, you will be close from final countdown and you must press "K" alternate action key, precisely at minus 10 seconds, to start the final countdown.
-
-
-For an immediat launch with autopilot, press ENTER key on numeric keypad. To start with full manual control, just put full throttle instead. During ascent with autopilot, any manual control commands will immediately abort autopilot control and ATC sounds.
-
-
-You can watch the "life" of any parts of the stack, after they separate. Just press F4 and use "Select ship" function.
+<p>分離した後の部品がどうなるかを観察することもできる。<b>F3</b>キーを押して宇宙船の選択ウィンドウを開く。</p>
 </body>
 END_HYPERDESC
 

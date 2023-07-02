@@ -1,12 +1,10 @@
 BEGIN_HYPERDESC
 <body style="font-family: Meiryo;">
-You just get Earth circular orbit at 187.7 km (101.35 nm).
+<p>高度187.7km（101.35海里）で地球周回軌道に乗った。</p>
 
+<p>このタイミングで、TLI（Trans-Lunar Injection = 月遷移軌道投入）を準備する。</p>
 
-Time now to prepare TLI (Trans-Lunar Injection).
-
-
-You may align your orbit plan with Moon orbit plan, using Orbiter "Align" instrument and then, prepare injection into trans-lunar orbit, with Orbiter "Transfer" instrument. But it is better to use "IMFD" instrument addon, like demonstrated in the next scenario step.
+<p>Align MFDを使って月と軌道面を一致させてから、Transfer MFDで月遷移軌道を設定することもできる。しかし、この次のシナリオで紹介しているように、IMFDというアドオンを使ったほうがよい。</p>
 </body>
 END_HYPERDESC
 

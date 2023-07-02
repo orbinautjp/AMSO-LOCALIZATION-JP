@@ -1,15 +1,16 @@
 BEGIN_HYPERDESC
 <body style="font-family: Meiryo;">
-On the Moon surface.
+<p>月面に着陸している。</p>
 
+<p>ASCENT（上昇）準備をして、離陸する。</p>
 
-ASCENT preparation and lift off.
+<p>キーボード<b>J</b>を押してLMを離陸準備モードにする。<br>
+<b>K</b>を押してオートパイロットメニューを開く。<br>
+矢印キー<b>←→</b>（左右）で "Engage ASCENT" を選択。<br>
+矢印キー<b>↑</b>（上）で実行する。<br>
+これでLMのオートパイロットが有効になり、全自動で離陸とランデブーを実行する。</p>
 
-
-Press "J" key to enter into LM lift off preparation mode. Then press "K" key to get autopilot select "Engage ASCENT" with "left/right" arrow keys and activate the program with "up" arrow key. This will engage the LM ascent and rendez-vous full automatic autopilot sequence of programs.
-
-
-Real flight plan: 21th July at 17:55 UT (lift off).
+<p>史実のフライトプランでは、UT（世界時）の7月21日17:55の打ち上げ予定だった。</p>
 </body>
 END_HYPERDESC
 

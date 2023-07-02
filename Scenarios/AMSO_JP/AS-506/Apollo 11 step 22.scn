@@ -1,15 +1,12 @@
 BEGIN_HYPERDESC
 <body style="font-family: Meiryo;">
-In orbit around the Moon.
+<p>月周回軌道に乗っている。</p>
 
+<p>LMの上昇ステージを分離する。</p>
 
-Time to jettison the LM ascent stage.
+<p>キーボード<b>J</b>を押してLMの最終分離を実行する。（これ以降の再ドッキングは不可）</p>
 
-
-Use the "J" key for the definitive LM separation (no more docking possible after this operation).
-
-
-Real flight plan: 22th July at 1:25 UT.
+<p>史実のフライトプランでは、UT（世界時）の7月22日1:25の予定だった。</p>
 </body>
 END_HYPERDESC
 

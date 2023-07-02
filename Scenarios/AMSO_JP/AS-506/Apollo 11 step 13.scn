@@ -1,15 +1,12 @@
 BEGIN_HYPERDESC
 <body style="font-family: Meiryo;">
-In orbit around the Moon.
+<p>月周回軌道に乗っている。</p>
 
+<p>CSM（司令・機械船）とLM（月着陸船）を分離する。</p>
 
-CSM-LM undocking.
+<p>CSMのコクピットで、キーボード<b>Ctrl</b>+<b>D</b>を同時押ししてLMを分離する。このとき、宇宙船の姿勢は月面に対して垂直になっている。</p>
 
-
-In CSM cockpit, undock the LM with "Ctrl-D" key, when you are aligned with vertical to Moon.
-
-
-Real flight plan: 20th July at 17:42 UT.
+<p>史実のフライトプランでは、UT（世界時）の7月20日17:42の予定だった。</p>
 </body>
 END_HYPERDESC
 

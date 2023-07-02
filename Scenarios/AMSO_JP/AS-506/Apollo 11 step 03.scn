@@ -1,12 +1,11 @@
 BEGIN_HYPERDESC
 <body style="font-family: Meiryo;">
-A few seconds before 2st stage separation.
+<p>数秒後に第2段を分離する。</p>
 
+<p>打ち上げオートパイロットを実行中。</p>
 
-Autopilot is activated.
-
-
-After 2st stage separation, "J" action key will allow you to separate Apollo vessel from 3rd stage. But this can be done only if all engines (main and RMS) of 3rd stage are all cut. You may have to do that to abort the flight in case of problems. For example, if the 3rd stage fail to build the Earth parking orbit. 
+<p>第2段の分離後にキーボード<b>J</b>を押すと、第3段からアポロ宇宙船が分離される。ただし、第3段の全エンジンが停止していなければ分離できない。
+打ち上げ中に問題が発生したとき、例えば第3段での加速で地球周回軌道に乗れなかったような場合、分離を実行しフライトを中止しなければならないこともある。</p>
 </body>
 END_HYPERDESC
 

@@ -1,15 +1,15 @@
 BEGIN_HYPERDESC
 <body style="font-family: Meiryo;">
-In orbit around the Moon.
+<p>月周回軌道に乗っている。</p>
 
+<p>軌道を確認し、LM（月着陸船）を起動する。</p>
 
-Orbit check and LM activation.
+<p>
+  キーボード<b>K</b>を押すと、 "Check Orbit>base alignment" が表示される。矢印キー<b>↑</b>（上）を押して実行すると、軌道修正が必要かどうか確認できる（このシナリオでは必要ない）。<br>
+  自力で最初からミッションを遂行するのであれば、月着陸を開始する1・2周前にこれを実行しておくこと。cross range（自分の軌道と着陸地点のずれ）が大きすぎる場合は、 "Execute Orbit>base alignment" を実行する。
+</p>
 
-
-Press "K" key. You will see "Check Orbit>base alignment". Activate this query with "up" arrow key. It will learn you that it is not necessary to correct the orbit. But when you will fly your own Moon mission, don't forget to make this check one or two orbits before to start Moon landing operations. If the cross range is critical or out of limit, run the program "Execute Orbit>base alignment".
-
-
-Now, press "M" key to go in the LM. Press "J" key to activate the LM. Press "M" again to return in the CSM. You are ready for the coming landing operations.
+<p>キーボード<b>M</b>を押してLMに移乗する。<b>J</b>を押してLMを起動する。もう一度<b>M</b>を押してCSMに戻る。これで着陸準備が完了する。</p>
 </body>
 END_HYPERDESC
 

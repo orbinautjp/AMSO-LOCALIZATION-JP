@@ -1,15 +1,16 @@
 BEGIN_HYPERDESC
 <body style="font-family: Meiryo;">
-In orbit around the Moon.
+<p>月周回軌道に乗っている。</p>
 
+<p>DOI（Descent Orbit Insertion = 月降下軌道投入）を開始する。</p>
 
-DOI (Descent Orbit Insertion).
+<p>
+  キーボード<b>K</b>を押すと、LMのオートパイロットメニューが開く。<br>
+  矢印キー<b>←→</b>（左右）で "Engage DOI" を選択。<br>
+  矢印キー<b>↑</b>（上）で実行する。
+</p>
 
-
-Open LM autopilot menu with "K" key and select "Engage DOI" with "left/right" arrow keys. Activate the program with "up" arrow key.
-
-
-Real flight plan: 20th July at 19:12 UT.
+<p>史実のフライトプランでは、UT（世界時）の7月20日19:12の予定だった。</p>
 </body>
 END_HYPERDESC
 

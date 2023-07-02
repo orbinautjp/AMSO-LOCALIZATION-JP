@@ -1,15 +1,14 @@
 BEGIN_HYPERDESC
 <body style="font-family: Meiryo;">
-In orbit around the Moon.
+<p>月周回軌道に乗っている。</p>
 
+<p>CSMへの接近を開始する。</p>
 
-Start of CSM closing sequence.
+<p>このシナリオではプログラムP36を実行して、全自動で最終ランデブー・マニューバをおこなう。<br>
+ただしこれは架空のプログラムであり、実際にはLMの宇宙飛行士が手動で操縦した。<br>
+LMはCSMを視線上に捉えたまま前進し、必要に応じて減速マニューバを実行する。</p>
 
-
-This is the fictitious P36 program which operate the final rendez-vous manoeuvers, made manually by the LM crew in the reality. LM thrusts along line of sight toward CSM and do braking manoeuvers as necessary.
-
-
-Real flight plan: 21th July at 20:30 UT.
+<p>史実のフライトプランでは、UT（世界時）の7月21日20:30の予定だった。</p>
 </body>
 END_HYPERDESC
 

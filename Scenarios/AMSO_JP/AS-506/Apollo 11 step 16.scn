@@ -1,17 +1,18 @@
 BEGIN_HYPERDESC
 <body style="font-family: Meiryo;">
-On the Moon surface.
+<p>月面に着陸している。</p>
 
+<p>
+  ヒューストン、こちら「静かの海」基地。<br>
+  イーグルは着陸した！！！
+</p>
 
-Houston, this is the Tranquillity base,
+<p>
+  月着陸中にテンキーの<b>Enter</b>を押すと、緊急脱出オートパイロットが実行される。<br>
+  （訳注：間違って押すとその時点で月面探査が終了します）
+</p>
 
-Eagle has landed !!!
-
-
-At this stage and during all Moon stay, you can launch an urgency abort under autopilot control by pressing numeric keypad "ENTER" key.
-
-
-Real flight plan: 20th July at 20:19 UT.
+<p>史実のフライトプランでは、UT（世界時）の7月20日20:19の予定だった。</p>
 </body>
 END_HYPERDESC
 

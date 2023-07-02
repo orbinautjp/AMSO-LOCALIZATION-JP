@@ -1,12 +1,10 @@
 BEGIN_HYPERDESC
 <body style="font-family: Meiryo;">
-A few minutes before TLI (Trans-Lunar Injection).
+<p>数分後にTLI（Trans-Lunar Injection = 月遷移軌道投入）を開始する。</p>
 
+<p>IMFDにはTLI噴射のための設定がすでに入力されている。IMFDのAuto-Burn（自動噴射）を実行するだけでよい。</p>
 
-IMFD instrument is all set for the TLI burn. You just have to activate auto-burn IMFD function.
-
-
-Real flight plan: 16th July at 16:16 UT.
+<p>史実のフライトプランでは、UT（世界時）の7月16日16:16の予定だった。</p>
 </body>
 END_HYPERDESC
 

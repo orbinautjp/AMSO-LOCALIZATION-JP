@@ -1,15 +1,15 @@
 BEGIN_HYPERDESC
 <body style="font-family: Meiryo;">
-On the Moon surface.
+<p>月面に着陸している。</p>
 
+<p>月面でのEVA（船外活動）に備えて、船内を減圧している。</p>
 
-Depressurisation for lunar surface EVA.
+<p>キーボード<b>K</b>を押してEVAを開始する。<br>
+<b>M</b>で宇宙飛行士とLMを切り替える。<br>
+もう一度<b>K</b>を押すと、2人目の宇宙飛行士が出てくる。<br>
+EVAの操作についてはreadmeファイルを参照すること。</p>
 
-
-Press "K" key to start EVA activities. "M" will then toggle focus between astronaut and the LM. By pressing one more time "K" key from the LM, the second astronaut will also start EVA. For EVA activities, please refer to chapter "LUNAR EVA ACTIVITIES" of the readme file.
-
-
-Real flight plan: 21th July at 6:02 UT.
+<p>史実のフライトプランでは、UT（世界時）の7月21日6:02の予定だった。</p>
 </body>
 END_HYPERDESC
 

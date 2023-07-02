@@ -1,15 +1,12 @@
 BEGIN_HYPERDESC
 <body style="font-family: Meiryo;">
-In orbit around the Moon.
+<p>月周回軌道に乗っている。</p>
 
+<p>LMは所定の位置に着いた。</p>
 
-LM on station.
+<p>架空のプログラムP36の最終段階。LMは回転を開始し、CSMにドッキングポートを向ける。</p>
 
-
-This is the fictitious P36 program end. LM will soon rotate to present the docking port to the CSM.
-
-
-Real flight plan: 21th July at 21:32 UT (Docking).
+<p>史実のフライトプランでは、UT（世界時）の7月21日21:32にドッキングする予定だった。</p>
 </body>
 END_HYPERDESC
 

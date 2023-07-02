@@ -1,12 +1,11 @@
 BEGIN_HYPERDESC
 <body style="font-family: Meiryo;">
-Astronauts recovery.
+<p>宇宙飛行士を回収する。</p>
 
+<p>宇宙飛行士を引き上げる。</p>
 
-Ready to lift astronauts.
-
-
-Press "D" key to open SH3-SeaKing door. Then, use alternate action key "K" to perform the whole recovery sequence, step by step.
+<p>キーボード<b>D</b>を押してSH-3「シーキング」のドアを開放する。<br>
+ここからの操作はすべて<b>K</b>を押すと実行される。カゴを外に出し、降ろして、宇宙飛行士を乗せる。</p>
 </body>
 END_HYPERDESC
 

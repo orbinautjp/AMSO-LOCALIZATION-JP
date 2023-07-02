@@ -1,12 +1,19 @@
 BEGIN_HYPERDESC
 <body style="font-family: Meiryo;">
-Astronauts recovery.
+<p>宇宙飛行士を回収する。</p>
 
+<p>ヘリコプターを始動する。</p>
 
-Time to engage the helicopter.
+<p>キーボード<b>J</b>を押すと甲板上にSH-3「シーキング(SeaKing)」ヘリコプターが出現する。<br>
+<b>M</b>を押してヘリに切り替える。<br>
+コクピット視点で<b>J</b>を押してヘリのエンジンを始動する。しばらく待つと、画面下にデータが表示される。<br>
+<b>Insert</b>を押して上昇。<b>G</b>を押してランディングギアを格納したら、アポロ司令船(CM)を目指して飛行する。</p>
 
-
-Press "J" key to lift the helicopter SH3-SeaKing on the carrier deck. Switch to helicopter with the "M" key, go to cockpit view and start helicopter engines with "J" key. When the display line appear, press "insert" key to increase collective pitch, retract the landing gears with "G" key and fly to Apollo CM.
+<p>訳注：キーボード<b>End</b>を押すと高度を維持する（ホバリング）。<br>
+<b>Delete</b>を押すと高度を下げる。<br>
+<b>L</b>を押すと機体を水平にする。<br>
+FwdV、LatVが前後・左右の速度。<br>
+APOLLO-Brgの方位にアポロ宇宙船がいる。</p>
 </body>
 END_HYPERDESC
 

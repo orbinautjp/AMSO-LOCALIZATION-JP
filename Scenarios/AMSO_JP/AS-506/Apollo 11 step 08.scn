@@ -1,23 +1,17 @@
 BEGIN_HYPERDESC
 <body style="font-family: Meiryo;">
-On the way to the Moon.
+<p>月へ向かって飛行中。</p>
 
+<p>キーボード<b>J</b>を押して、第3段からLM（月着陸船）を引っ張り出す。</p>
 
-Time to extract the LM.
+<p><b>注意</b>：第3段からの離脱後に<b>J</b>キーを押すと機械船が分離されてしまう。（月から戻ってきた着陸船と再ドッキングするまで有効）これをやってしまうと、アポロ13号のような状況で地球に帰還する羽目になる。</p>
 
+<p>分離から8分後に、第3段ロケットは自動で向きを変えてエンジンを噴射し、太陽周回軌道か、月と衝突する軌道に乗る。これらマニューバの実行中は、タイムワープが10倍に制限される。場合によっては、宇宙船を操縦して衝突コースから離脱する必要があるかもしれない。</p>
 
-Use "J" action key, to extract the LM.
-
-
-ATTENTION !!! From this stage and until you are not anymore docked with a complete LM, "J" key will jettison your service module. This allow you to simulate Apollo 13 dramatic flight.
-
-
-8 minutes after extraction, 3rd stage will manoeuver automatically and execute a burn to get either a solar orbit or a collision trajectory with the Moon. During these manoeuvers, time acceleration will be limited to 10x. You may need to perform an evasive manoeuver, to avoid collision with the 3rd stage.
-
-
-Real flight plan: 16th July at 17:42 UT.
-
-Historical time: 16th July at 17:49:02 UT.
+<p>
+  当初のフライトプランでは、UT（世界時）の7月16日17:42の予定だった。<br>
+  実際に分離されたのは、UT（世界時）の7月16日17:49:02だった。
+</p>
 </body>
 END_HYPERDESC
 

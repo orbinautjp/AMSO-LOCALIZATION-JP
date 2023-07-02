@@ -1,20 +1,17 @@
 BEGIN_HYPERDESC
 <body style="font-family: Meiryo;">
-On the way to the Moon.
+<p>月へ向かって飛行中。</p>
 
+<p>CSM（司令・機械船）を第3段から分離し、LM（月着陸船）とドッキングする。</p>
 
-Time to separate from the 3rd stage and dock with the LM.
+<p>キーボード<b>J</b>を押してアポロ宇宙船を分離し、反転して戻る。<b>F1</b>キーを押して機内視点に切り替えて、<b>Ctrl</b>+<b>Alt</b>+<b>矢印キー</b>の同時押しでカメラを移動させ、左上のドッキング装置を使用する。</p>
 
+<p>分離して10秒後に、Sバンド高利得アンテナが自動で展開される。</p>
 
-Separate Apollo vessel with "J" key, then return the vessel. To dock with the LM, Use "Docking" instrument set in "visual" mode with "shift-V".
-
-
-Quad S-band high gain antenna will automatically deploy 10 seconds after separation.
-
-
-Real flight plan: 16th July at 16:52 UT.
-
-Historical time: 16th July at 16:47:23 UT.
+<p>
+  当初のフライトプランでは、UT（世界時）の7月16日16:52となっていた。<br>
+  実際に分離されたのは、UT（世界時）の7月16日16:47:23だった。
+</p>
 </body>
 END_HYPERDESC
 
