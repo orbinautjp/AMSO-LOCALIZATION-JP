@@ -21,5 +21,8 @@ https://orbinautjp.github.io/apollo/#amso_control
 
 バージョン履歴
 
-20230701
+2023-07-01
 AS-506フォルダのシナリオを翻訳。
+
+2023-10-09
+Miscellaneousフォルダのシナリオを翻訳。
