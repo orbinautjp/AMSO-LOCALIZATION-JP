@@ -1,9 +1,8 @@
 BEGIN_HYPERDESC
 <body style="font-family: Meiryo;">
-This scenario demonstrate the automatic abort landing, because the descent stage consumed all its fuel.
+<p>このシナリオでは、自動での着陸中止を紹介している。原因は降下ステージの燃料切れである。</p>
 
-
-Just load the scenario and enjoy the spectacle !
+<p>とくに操作は必要ないので、ゲームを開始して観賞しよう。</p>
 </body>
 END_HYPERDESC
 

@@ -1,27 +1,22 @@
 BEGIN_HYPERDESC
 <body style="font-family: Meiryo;">
-This scenario is shortly after lift off, with global frame view mode.
+<p>打ち上げの各段階における脱出システムの挙動を再現したシナリオ。カメラはglobal frame視点に設定されている。<br>
+打ち上げの直後でゲームを開始する。</p>
 
+<p>キーボード<b>J</b>を2回押すと打ち上げが中止される。<br>
+しばらく待ってから打ち上げを中止することで、各段階における挙動の違いを観察できる。</p>
 
-Press twice on action key "J" to abort the flight and see what happen.
+<p><b>Mode-1A （0~3000m）：</b></p>
 
+<p>打ち上げ脱出システム(LES)の先端ロケットに点火し、機首を下げる方向に推力を発生させる。それからカナード翼を展開し、カプセルの底部が前方に向くようにする。姿勢変更が完了したらLESが自動で分離され、パラシュートが展開される。</p>
 
-You can wait for later flight time to see different abort profiles.
+<p><b>Mode-1B （3000m~30.5km）：</b></p>
 
+<p>Mode-1Aとほとんど同じだが、この時点でサターンロケットは十分機首を下げているため、LESの先端ロケットによる機首下げが実行されない。高度30kmを超えた場合は、LESを分離してMode-1Cに移行することもできる。</p>
 
-Mode-1A (0 to 3000m):
+<p><b>Mode-1C （30.5kmからLES分離まで）：</b></p>
 
-The escape tower fire from the top of it, a strong and short down pitch impulse and then, deploy the escape tower "canard" wings, to return the vessel bottom forward (blunt-end forward or BEF attitude). Then, the escape tower will be automatically jettisoned and the parachute sequence will start.
-
-
-Mode-1B (3000m to 30,5km):
-
-This Mode is very similar to Mode 1A. The only difference is that the down pitch impulse is not given, as the vehicle has already enough down pitch. Notice that if during this abort, you pass over the altitude of 30 km, you will have the choice to switch to mode 1C, by simply ejecting manually the escape tower. This remain possible only as long as you are over this altitude.
-
-
-Mode-1C (30,5km to LES jettison):
-
-In this mode, you won't have pitch impulse and escape tower "canard" wings are NOT deployed, because the atmosphere is too thin for them, to be efficient enough. This mode is fully manual. You will need to jettison manually the escape tower by pressing "J" action key. Then you will need to manually turn the vessel bottom forward.
+<p>LESのロケットによる機首下げは実行されず、カナード翼も展開されない。この高度では大気が薄すぎて機能しないからである。このモードでは、すべて手動で操作する必要がある。まずキーボード<b>J</b>を押してLESを分離し、手動操縦でカプセルの底部を前方に向ける。</p>
 </body>
 END_HYPERDESC
 

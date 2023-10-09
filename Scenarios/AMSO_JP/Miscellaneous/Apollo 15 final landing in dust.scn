@@ -1,15 +1,12 @@
 BEGIN_HYPERDESC
 <body style="font-family: Meiryo;">
-This scenario demonstrate the dust feature on Moon landing.
+<p>AMSOでは月着陸時に砂が巻き上がるようになっており、それを紹介するためのシナリオ。</p>
 
+<p>シナリオを実行したら、何も操作しなくてよい。砂煙を観賞しよう。</p>
 
-Just run the scenario, don't touch nothing and enjoy!
+<p><b>Ctrl</b>+矢印キー<b>↓</b>（下）でカメラを引いて、俯瞰で眺めることもできる。</p>
 
-
-You may re-run this scenario and set the camera more far away with "Ctrl-DownArrow", to get a more general view of this spectacular landing.
-
-
-Notice that, if this dust feature is too much for your computer (frame rate), or if you simply don't like it, you can disable it by adding the parameter "NODUST 1" in the LM vessel parameters of any scenario.
+<p>自分のPCには負荷が重すぎる場合（フレームレートが下がる）、もしくは単純に好みではない場合は、シナリオファイルを開いてLMのパラメータに<b>NODUST 1</b>と追記することで無効にできる。</p>
 </body>
 END_HYPERDESC
 

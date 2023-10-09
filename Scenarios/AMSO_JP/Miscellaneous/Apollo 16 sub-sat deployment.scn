@@ -1,9 +1,8 @@
 BEGIN_HYPERDESC
 <body style="font-family: Meiryo;">
-This scenario demonstrate the deployment of Apollo 16 sub-satellite.
+<p>このシナリオでは、アポロ16号からの小型衛星の放出を紹介している。</p>
 
-
-Press "K" key, then right arrow key and finally up arrow key.
+<p>キーボードで<b>K</b>を押して、矢印キー<b>→</b>（右）、そして矢印キー<b>↑</b>（上）の順番で押す。</p>
 </body>
 END_HYPERDESC
 

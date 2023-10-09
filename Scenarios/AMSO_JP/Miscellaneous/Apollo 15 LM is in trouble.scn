@@ -1,21 +1,23 @@
 BEGIN_HYPERDESC
 <body style="font-family: Meiryo;">
-This scenario require you have the Orbiter parameter "Damage and failure simulation" ACTIVATED !
+<p>このシナリオを実行するときは、<b>Parameters</b>タブの<b>Damage and failure simulation</b>を有効化しておくこと。</p>
 
+<p>LMで月面に降下中、ホバーエンジンが故障したという状況で開始する。推力が20%低下し、誘導システムも不調だ。</p>
 
-You start just after you got an hover engine malfunction, during the LM PDI. You have lost 20% of thrust and you suspect the guidance is also in trouble !
+<p>無理をしないのであれば、即座に<b>ABORT-STAGE（</b>降下ステージ分離）を実行してもよい。もしくは、少し待ってみて着陸可能かを判断し、最終的に手動で着陸させてもよい。
+いずれにしろ、降下中は降下率と高度を並行して確認し続ける必要がある。降下が速すぎ、また高度が低すぎるときは打つ手がない。LMの乗員は死ぬことになるだろう。
+この場合には、AMSOではあまりないことだが、「CSMの乗員だけでも助ける」ということになる。LMの乗員が助けられないと判断したら、CSMに操作を切り替えて、プレイヤーはCSMのパイロットとして生存できる。そうなったときは、地球への帰還を目指してみよう。</p>
 
+<p>訳注：キーボード<b>M</b>を押すと操作する宇宙船を変更できる。</p>
 
-Now, you may play the prudence and immediately execute an "ABORT-STAGE". Or you may decide to wait and see if your LM will still be able to land, even eventually, under your manual control. But, whatever you will do, as long as you continue to descent, don't forget to always survey very carefully your descent rate in parallel with your altitude. If you descent too fast and too low, they will be no more choice ! The LM crew will be condamned to death ! Now, if this situation happen, you may try a possibility little known in AMSO: SAVING THE CSM PILOT. For this, when you realize LM crew is condamned to death, switch immediately the focus to the Apollo CSM vessel and you will survive in the role of the CSM pilot! Then, you may try to return to Earth.
+<p>脱出プログラムには<b>ABORT</b>と、より安全な<b>ABORT-STAGE</b>（故障の恐れがある降下ステージを分離する）の2つがあり、実行すると一連のプログラムが実行され、軌道に復帰し、CSMと緊急ランデブーする様子を見ることができる。
+日光に照らされたCSMに接近するので、美しい光景を観賞できる。</p>
 
+<p>訳注：キーボード<b>J</b>を押すと脱出プログラムのメニューが開く。矢印キー←→（左右）で選択し、矢印キー↑（上）で実行する。</p>
 
-If you execute an "ABORT", or more safely, an "ABORT-STAGE" (so you don't keep running an engine potentially damaged), you will see in action the sequence of computer programs who will put you first, back again in orbit and then, executing an emergency Rendezvous with the CSM. The spectacle will be marvellous, as you will be closing the CSM in day light.
+<p>十分接近したら、2機の宇宙船でそれぞれ誘導灯を点灯しておこう。</p>
 
-
-Don't forget to switch on rendezvous lights & beacons on both vessels, when you will be close enough. 
-
-
-Enjoy !
+<p>訳注：<b>Ctrl</b>+<b>L</b>で誘導灯を点灯する。</p>
 </body>
 END_HYPERDESC
 

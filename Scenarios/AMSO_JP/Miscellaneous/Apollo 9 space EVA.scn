@@ -1,9 +1,13 @@
 BEGIN_HYPERDESC
 <body style="font-family: Meiryo;">
-The first space EVA of the Apollo program, during Apollo 9 mission in Earth orbit.
+<p>アポロ計画で最初のEVA（船外活動）は、アポロ9号ミッションの地球周回軌道において実行された。</p>
 
+<p>キーボード<b>K</b>を押してから、矢印キー<b>↑</b>（上）でEVAを開始する。</p>
 
-Press "K" key and then "Up arrow" key to start the space EVA.
+<p>
+  訳注：宇宙飛行士の操作は通常の宇宙船のRCSと同じ。テンキー数字キーで移動・回転する。<br>
+  キーボードで<b>K</b>を押すと相対速度をゼロにする。座席に戻るとEVAを終了する。
+</p>
 </body>
 END_HYPERDESC
 

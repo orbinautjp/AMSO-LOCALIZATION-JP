@@ -1,9 +1,13 @@
 BEGIN_HYPERDESC
 <body style="font-family: Meiryo;">
-This scenario demonstrate the deployment and the equipment of Apollo 16 Lunar Rover.
+<p>このシナリオでは、アポロ16号の月面車とその装備を紹介している。</p>
 
+<p>キーボードで<b>K</b>を押して遊んでみよう！</p>
 
-Just press "K" key and enjoy!
+<p>
+  訳注：テンキー数字キーで宇宙飛行士の移動・月面車の運転。キーボード<b>M</b>で操作対象の変更。<b>J</b>で月面車に乗り降りする。テンキー<b>Enter</b>でアクセルとハンドルを固定する。<br>
+  乗り込む位置によってはLMに戻ってしまうので、できるだけ月面車に近づくようにする。
+</p>
 </body>
 END_HYPERDESC
 

@@ -1,15 +1,10 @@
 BEGIN_HYPERDESC
 <body style="font-family: Meiryo;">
-This scenario is short before LM extraction from SIVB 3rd stage.
+<p>S-IVB（サターンロケット第3段）から、LMを分離する直前でゲームを開始する。</p>
 
+<p>ニール・アームストロングがこれから語る窓の外の景色と、あなたが右側の窓から見るそれはまったく同じだ。</p>
 
-Neil Armstrong will soon describe exactly what you can see through the right window !!!
-
-
-Go to right seat with "Ctrl-Alt-RightArrow". Then, use the mouse with right button pressed, to look through this window and wait to hear the description of Neil. He will say it just after describing some particles he can see, because of a vent operation made on the 3rd stage from the ground.
-
-
-To work as described, this scenario require AMSO Apollo 11 Sound Expension Pack to be installed.
+<p><b>Ctrl</b>+<b>Alt</b>+矢印キー<b>→</b>（右）を同時押しして、右側の座席に移動する。マウス右ボタンを押しっぱなしにして右を向き、窓から外を眺めつつ、ニールの説明を聞いてみよう。この発言の少し前に、ニールは窓の外に微粒子の流れが見えると報告するが、これは地上からの操作によって第3段からガスが放出されたためである。（訳注：AMSOでは再現されていない）</p>
 </body>
 END_HYPERDESC
 

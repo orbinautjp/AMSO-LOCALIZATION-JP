@@ -1,9 +1,8 @@
 BEGIN_HYPERDESC
 <body style="font-family: Meiryo;">
-In this scenario, when you will execute the trajectory correction MCC#2, your SPS main thruster engine will fail. So you have now to try to return to Earth without it.
+<p>このシナリオでは、2度目の軌道修正を実行しようとすると、SPS（機械船のメインエンジン）が故障するようになっている。メインエンジンなしで地球に帰還できるか挑戦してみよう。</p>
 
-
-Remark: require "Damage & failure simulation" is ON in Orbiter parameters setup.
+<p>注意：Launchpadの<b>Parameters</b>タブにおいて、<b>Damage & failure simulation</b>のオプションを有効にしておくこと。</p>
 </body>
 END_HYPERDESC
 
